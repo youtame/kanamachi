@@ -1,5 +1,7 @@
+<!-- pages/Home.vue -->
 <template>
     <v-container fluid class="px-4 px-sm-6">
+        <!-- Hero section-->
         <div class="hero">
             <v-img :src="logoimage" alt="Main Visual" class="hero-image" />
             <div class="main-title">
@@ -22,6 +24,7 @@
             </div>
         </div>
 
+        <!-- Features section-->
         <div class="features-section rounded-lg">
             <v-row>
                 <v-col cols="12" md="4">
@@ -87,6 +90,7 @@
             </v-row>
         </div>
 
+        <!-- Steps section-->
         <div class="steps-section">
             <h2 class="section-title text-center font-weight-bold mb-12">
                 How Squizee Works
@@ -164,6 +168,7 @@
             </div>
         </div>
 
+        <!-- Notice section-->
         <div class="notice-section">
             <v-alert v-if="loading" type="info" variant="tonal"
                 >Loading…</v-alert
@@ -512,12 +517,26 @@ const formatDate = (dateStr: string) => {
         margin-bottom: 60px;
     }
 
-    .step-row,
-    &.reverse {
+    .step-row {
         flex-direction: column !important;
         gap: 24px;
         text-align: center;
         margin-bottom: 60px;
+
+        &.reverse {
+            flex-direction: column !important;
+        }
+    }
+
+    .step-image-wrapper {
+        width: 100%;
+
+        .step-image {
+            width: 100%;
+            :deep(img) {
+                object-fit: cover !important;
+            }
+        }
     }
 
     .section-title {

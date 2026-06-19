@@ -1,3 +1,4 @@
+<!-- App.vue -->
 <template>
     <div class="d-flex flex-column min-vh-100">
         <v-app>
