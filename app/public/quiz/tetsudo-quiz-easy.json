@@ -1,0 +1,27 @@
+[
+    {
+        "chapter": 1,
+        "vocabulary": [
+            {
+                "id": "fb020e5a-b8ab-42c7-b4f7-590ef7d362e9",
+                "expression": "JR鶴見線の駅で、最も海に近いと考えられる駅は",
+                "definitions": ["海芝浦駅"]
+            },
+            {
+                "id": "e6778419-5570-44f2-9ede-15271f79f875",
+                "expression": "もぐら駅と呼ばれる群馬県にある上越線の駅は",
+                "definitions": ["土合駅"]
+            },
+            {
+                "id": "71a45f8c-deee-458b-8856-c0f5d109309f",
+                "expression": "地下鉄半蔵門線で唯一乗り換え路線がない駅は",
+                "definitions": ["半蔵門駅"]
+            },
+            {
+                "id": "3a909991-c9da-4bfa-bc63-a37505e6ec53",
+                "expression": "世界で最も乗り降りしている人の多い駅は？",
+                "definitions": ["新宿駅"]
+            }
+        ]
+    }
+]

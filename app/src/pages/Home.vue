@@ -12,7 +12,7 @@
                     variant="outlined"
                     class="code-style-btn px-10"
                     size="x-large"
-                    to="/dashboard"
+                    to="/menu"
                 >
                     <span class="btn-text font-weight-bold">Let's start</span>
                     <v-icon

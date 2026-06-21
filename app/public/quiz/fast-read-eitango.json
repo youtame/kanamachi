@@ -1,0 +1,164 @@
+[
+    {
+        "chapter": 41,
+        "vocabulary": [
+            {
+                "id": "e4ba3987-926f-49ff-bd3d-042898cf8f3a",
+                "expression": "look forward to",
+                "definitions": ["~を楽しみにする", "~を期待する"]
+            },
+            {
+                "id": "76db9e5a-2715-46bd-8da1-3c2243d790f9",
+                "expression": "play trick(joke) on",
+                "definitions": ["~をからかう"]
+            },
+            {
+                "id": "cd54bc7e-9087-4340-9743-690226c483a9",
+                "expression": "keep ... ing",
+                "definitions": ["...し続ける"]
+            },
+            {
+                "id": "a67e9124-7eb3-47bf-af61-fce4e0da13e7",
+                "expression": "go bad",
+                "definitions": ["腐る"]
+            },
+            {
+                "id": "18f9da9d-810a-4710-9173-ee659b8be968",
+                "expression": "clear up",
+                "definitions": ["~（疑問・誤解など）を解く", "晴れる"]
+            },
+            {
+                "id": "45cfbd82-9694-463e-bb36-092bf062ffce",
+                "expression": "be ignorant of",
+                "definitions": ["~を知らない"]
+            },
+            {
+                "id": "73c68b75-149b-449d-a417-7693c6838a37",
+                "expression": "speak of A as B",
+                "definitions": ["AのことをBと言う"]
+            },
+            {
+                "id": "993ee765-bfbf-4503-b1d6-8798bf13d6a9",
+                "expression": "as to ~",
+                "definitions": ["~に関して", "〜について（言うと）"]
+            },
+            {
+                "id": "b1812ceb-6072-4d2d-be5a-b60bda844517",
+                "expression": "make fun of",
+                "definitions": ["〜をからかう"]
+            },
+            {
+                "id": "7de7a0e3-99d9-482d-bf7d-94d3090e3dfb",
+                "expression": "in connection with",
+                "definitions": ["〜に関連して"]
+            },
+            {
+                "id": "f865f3a0-1282-45e0-a92c-e1fca97621c0",
+                "expression": "be tired of",
+                "definitions": ["〜にうんざりしている"]
+            },
+            {
+                "id": "c62de97e-128d-4cb0-a15d-da9fdb3eb951",
+                "expression": "put up with",
+                "definitions": ["〜に耐える", "~を我慢する"]
+            },
+            {
+                "id": "31b46a5b-d45a-4993-96b6-39a79fa4b232",
+                "expression": "pull one's leg",
+                "definitions": ["（冗談で）~をからかう"]
+            },
+            {
+                "id": "4954bd64-f651-404c-8f15-3788db3cdb62",
+                "expression": "think little of",
+                "definitions": ["~をなんとも思わない", "〜を軽んじる"]
+            },
+            {
+                "id": "9ed18bc7-60e5-47e0-9bc2-3c22d7c588b4",
+                "expression": "lose one's temper",
+                "definitions": ["腹を立てる", "カッとなる"]
+            },
+            {
+                "id": "4b684537-8efd-4e92-afcb-38cbe2f84fae",
+                "expression": "be said to have",
+                "definitions": ["〜したと言われている"]
+            }
+        ]
+    },
+    {
+        "chapter": 42,
+        "vocabulary": [
+            {
+                "id": "a7b3c1d4-e2f5-4a6b-8c7d-9e0f1a2b3c4d",
+                "expression": "be known for ~",
+                "definitions": ["〜で知られている"]
+            },
+            {
+                "id": "b8c4d2e5-f3a6-4b7c-9d8e-0f1a2b3c4d5e",
+                "expression": "in all",
+                "definitions": ["全部で", "合計で"]
+            },
+            {
+                "id": "c9d5e3f6-a4b7-4c8d-0e9f-1a2b3c4d5e6f",
+                "expression": "for [with] all ~",
+                "definitions": ["〜にもかかわらず"]
+            },
+            {
+                "id": "d0e6f4a7-b5c8-4d9e-1f0a-2b3c4d5e6f7a",
+                "expression": "nothing less than ~",
+                "definitions": ["〜にほかならない"]
+            },
+            {
+                "id": "e1f7a5b8-c6d9-4e0f-2a1b-3c4d5e6f7a8b",
+                "expression": "anything but ~",
+                "definitions": ["まったく〔決して〕〜ではない"]
+            },
+            {
+                "id": "f2a8b6c9-d7e0-4f1a-3b2c-4d5e6f7a8b9c",
+                "expression": "on top of ~",
+                "definitions": ["〜に加えて"]
+            },
+            {
+                "id": "a3b9c7d0-e8f1-4a2b-4c3d-5e6f7a8b9c0d",
+                "expression": "be peculiar to ~",
+                "definitions": ["〜に固有である", "〜に特有のものである"]
+            },
+            {
+                "id": "b4c0d8e1-f9a2-4b3c-5d4e-6f7a8b9c0d1e",
+                "expression": "break down (~)",
+                "definitions": ["（食物）を消化する", "故障する", "崩壊する"]
+            },
+            {
+                "id": "c5d1e9f2-a0b3-4c4d-6e5f-7a8b9c0d1e2f",
+                "expression": "see little [much ; nothing] of ~",
+                "definitions": [
+                    "〜にあまり会わない〔よく会う；まったく会わない〕"
+                ]
+            },
+            {
+                "id": "d6e2f0a3-b1c4-4d5e-7f6a-8b9c0d1e2f3a",
+                "expression": "on end",
+                "definitions": ["続けて", "立て続けに"]
+            },
+            {
+                "id": "e7f3a1b4-c2d5-4e6f-8a7b-9b0c1d2e3f4a",
+                "expression": "be addicted to ~",
+                "definitions": ["〜（薬など）に依存している", "〜の中毒である"]
+            },
+            {
+                "id": "f8a4b2c5-d3e6-4f7a-9b8c-0d1e2f3a4b5c",
+                "expression": "cut back [down] (on) ~",
+                "definitions": ["〜を減らす", "〜を切り詰める"]
+            },
+            {
+                "id": "a9b5c3d6-e4f7-4a8b-0c9d-1e2f3a4b5c6d",
+                "expression": "of one's own ···ing",
+                "definitions": ["〜自身で···した"]
+            },
+            {
+                "id": "b0c6d4e7-f5a8-4b9c-1d0e-2f3a4b5c6d7e",
+                "expression": "if S should ...",
+                "definitions": ["万一···なら〔でも〕"]
+            }
+        ]
+    }
+]

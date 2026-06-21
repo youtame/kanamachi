@@ -12,6 +12,24 @@ const routes: RouteRecordRaw[] = [
         component: () => import("../pages/Home.vue"),
         meta: { title: "A easy JSON-based quiz app" },
     },
+    {
+        path: "/menu",
+        name: "menu",
+        component: () => import("../pages/Menu.vue"),
+        meta: { title: "A easy JSON-base quiz app" },
+    },
+    {
+        path: "/setup/:textname",
+        name: "setup",
+        component: () => import("../pages/QuizSetup.vue"),
+        meta: { title: "A easy JSON-base quiz app" },
+    },
+    {
+        path: "/play/:quizId",
+        name: "play",
+        component: () => import("../pages/Play.vue"),
+        meta: { title: "A easy JSON-base quiz app" },
+    },
 ];
 
 export const router = createRouter({

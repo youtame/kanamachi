@@ -30,15 +30,15 @@
                     <v-spacer></v-spacer>
 
                     <v-btn
-                        v-if="isNotDashboard"
+                        v-if="isNotHomeMenu"
                         icon
                         variant="text"
-                        @click="$router.push('/dashboard')"
+                        @click="$router.push('/menu')"
                         class="mr-1 d-none d-md-flex"
                     >
                         <v-icon :icon="mdiHome"></v-icon>
                         <v-tooltip activator="parent" location="bottom"
-                            >Dashboard</v-tooltip
+                            >Menu</v-tooltip
                         >
                     </v-btn>
 
@@ -85,16 +85,16 @@
             >
                 <v-divider></v-divider>
                 <v-list nav>
-                    <v-list-item v-if="isNotDashboard" link to="/dashboard">
+                    <v-list-item v-if="isNotHomeMenu" link to="/menu">
                         <template v-slot:prepend>
                             <v-icon :icon="mdiHome"></v-icon>
                         </template>
                         <v-list-item-title class="font-weight-bold"
-                            >Dashboard</v-list-item-title
+                            >Menu</v-list-item-title
                         >
                     </v-list-item>
 
-                    <v-divider v-if="isNotDashboard" class="my-2"></v-divider>
+                    <v-divider v-if="isNotHomeMenu" class="my-2"></v-divider>
 
                     <v-list-item>
                         <template v-slot:prepend>
@@ -114,7 +114,9 @@
                         <template v-slot:append>
                             <v-switch
                                 :model-value="theme.global.current.value.dark"
-                                @update:model-value="(val) => toggleTheme(val)"
+                                @update:model-value="
+                                    (val) => toggleTheme(val ?? undefined)
+                                "
                                 color="primary"
                                 hide-details
                                 density="compact"
@@ -178,14 +180,9 @@ import logo from "@/assets/logo.svg";
 
 const route = useRoute();
 
-const isNotHome = computed(() => {
+const isNotHomeMenu = computed(() => {
     const normalizedPath = route.path.replace(/^\/|\/$/g, "");
-    return normalizedPath !== "";
-});
-
-const isNotDashboard = computed(() => {
-    const normalizedPath = route.path.replace(/^\/|\/$/g, "");
-    return !["dashboard", ""].includes(normalizedPath);
+    return !["menu", ""].includes(normalizedPath);
 });
 
 const drawer = ref(false);
