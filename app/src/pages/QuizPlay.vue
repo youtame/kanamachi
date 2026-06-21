@@ -185,7 +185,7 @@
 /* Setup logic for managing route queries, store initializations, and answer checking hooks */
 import { ref, computed, onMounted } from "vue";
 import { useRoute } from "vue-router";
-import { useQuizStore } from "../stores/quizStore";
+import { useQuizStore } from "../stores/QuizStore";
 import {
     mdiArrowRight,
     mdiCheckCircle,
