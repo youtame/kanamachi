@@ -25,10 +25,10 @@ const routes: RouteRecordRaw[] = [
         meta: { title: "A easy JSON-base quiz app" },
     },
     {
-        path: "/play/:quizId",
+        path: "/play/:textname",
         name: "play",
-        component: () => import("../pages/Play.vue"),
-        meta: { title: "A easy JSON-base quiz app" },
+        component: () => import("../pages/QuizPlay.vue"),
+        meta: { title: "Playing Quiz" },
     },
 ];
 

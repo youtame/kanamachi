@@ -254,6 +254,7 @@ import {
     mdiAccountMultiple,
 } from "@mdi/js";
 
+// Type Definition
 export interface NoticeLink {
     text: string;
     url: string;
@@ -273,8 +274,7 @@ const error = ref(false);
 
 onMounted(async () => {
     try {
-        const baseUrl = "http://localhost:5173/";
-        const res = await fetch(`${baseUrl}information/squizee-info.json`);
+        const res = await fetch(`/information/squizee-info.json`);
 
         if (!res.ok) throw new Error("fetch failed");
         notices.value = await res.json();

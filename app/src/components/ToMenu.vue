@@ -6,7 +6,7 @@
                 <v-btn
                     variant="flat"
                     rounded="lg"
-                    class="main-button font-weight-bold border-md"
+                    class="main-button font-weight-bold code-style-btn"
                     color="surface"
                     elevation="0"
                     rel="noopener"
@@ -38,5 +38,9 @@ import { mdiArrowLeftBold } from "@mdi/js";
     font-size: 17px;
     font-weight: 600;
     text-align: center;
+}
+
+.code-style-btn {
+    border-width: 2px !important;
 }
 </style>

@@ -1,8 +1,10 @@
+<!-- pages/QuizSeup.vue -->
 <template>
     <v-container fluid class="bg-background">
         <tomenu />
         <h1 class="main-title text-high-emphasis mt-4">{{ textbookName }}</h1>
 
+        <!-- Setup section-->
         <div class="setup-section mb-10">
             <h2 class="sub-title text-medium-emphasis">
                 Quiz Settings
@@ -115,10 +117,7 @@ const selectedLimit = ref<number>(10);
 const chapterOptions = ref<{ label: string; value: number }[]>([]);
 const isLoading = ref<boolean>(false);
 
-const modeOptions = [
-    { label: "Choice", value: "choice" },
-    { label: "Type", value: "type" },
-];
+const modeOptions = [{ label: "Choice", value: "choice" }];
 
 const limitOptions = [
     { label: "10 Questions", value: 10 },
