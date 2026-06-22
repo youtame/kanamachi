@@ -149,7 +149,6 @@ const extraContents = ref<ButtonItem[]>([
         icon: mdiAccountMultiple,
         link: "/setup/genius-quiz",
         color: "lime-darken-3",
-        comingSoon: true,
     },
     {
         title: "Trivia Easy",

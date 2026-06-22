@@ -120,9 +120,9 @@ const isLoading = ref<boolean>(false);
 const modeOptions = [{ label: "Choice", value: "choice" }];
 
 const limitOptions = [
+    { label: "5 Questions", value: 5 },
     { label: "10 Questions", value: 10 },
     { label: "20 Questions", value: 20 },
-    { label: "30 Questions", value: 30 },
     { label: "All Questions", value: 0 },
 ];
 

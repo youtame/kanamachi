@@ -1,0 +1,86 @@
+[
+    {
+        "chapter": 1,
+        "vocabulary": [
+            {
+                "id": "1B98A053-1F91-4136-924F-6F3CE1BC894B",
+                "expression": "原則両隣に人がいない",
+                "definitions": ["Geniusが鉄道の席にすわるときの条件は?"]
+            },
+            {
+                "id": "786C8D5C-A0F2-421C-88F5-935355DABB25",
+                "expression": "水",
+                "definitions": ["Geniusが最も飲む確率が高いものは?"]
+            },
+            {
+                "id": "FB21F07F-1A41-450D-90C7-B78D30A9620A",
+                "expression": "紅茶",
+                "definitions": ["Geniusが最も好きなお茶は?"]
+            },
+            {
+                "id": "063C033C-79F0-4392-9638-B5AC97A8F2DB",
+                "expression": "入り口から2番目",
+                "definitions": ["Geniusがトイレで使う可能性が高いものは?"]
+            },
+            {
+                "id": "C28C1D1D-53FB-47BD-91AF-7697847D4B91",
+                "expression": "烏龍茶",
+                "definitions": ["Geniusが2番目に好きなお茶は?"]
+            },
+            {
+                "id": "466779BF-0528-4CD7-8805-728B13C60E5C",
+                "expression": "きのこ茶",
+                "definitions": ["Geniusが富士山に登った時に飲むお茶は?"]
+            },
+            {
+                "id": "1DE585F5-C669-4CC3-8059-B81B109EE1BF",
+                "expression": "レモングラス茶",
+                "definitions": [
+                    "Geniusが近所のアジアン料理屋に行った時に飲むお茶は?"
+                ]
+            },
+            {
+                "id": "BF82768D-C279-40BA-90C3-47CAB21D34EA",
+                "expression": "路上駐車",
+                "definitions": ["Geniusがこの中で嫌いなものは"]
+            },
+            {
+                "id": "ED09E8A1-270B-4C13-BF83-CD37C1ED3DBC",
+                "expression": "スッパまん",
+                "definitions": ["Geniusの友人で深夜徘徊を好む人は"]
+            },
+            {
+                "id": "7037CDC8-CA7B-49B2-85AA-1043D5F755A1",
+                "expression": "日本文化",
+                "definitions": ["Geniusの友人で事を考えすぎこんでしまう人は"]
+            },
+            {
+                "id": "0090EC53-61EB-4F80-B343-26E4C357CEAD",
+                "expression": "コーヒー",
+                "definitions": ["Geniusが最も行くカフェで飲むものは"]
+            },
+            {
+                "id": "D316B695-0564-44A9-9E30-12216AF88889",
+                "expression": "できるだけ端っこに寄りたい",
+                "definitions": ["Geniusが電車に乗った時に行いたいことは"]
+            },
+            {
+                "id": "FE447E16-F65F-40CA-BB6E-6C23729B8D60",
+                "expression": "窓側",
+                "definitions": ["Geniusは部屋に入った時にどこを好む"]
+            },
+            {
+                "id": "8BFA49E1-5A37-456E-9438-0917997E5942",
+                "expression": "エスカルゴ",
+                "definitions": [
+                    "Geniusが行きつけの某有名イタリアンレストランに行った時に食べるものは"
+                ]
+            },
+            {
+                "id": "9A26D64F-1DD2-4024-B219-EFECFCCD2995",
+                "expression": "Geniusが比較的苦手なものは",
+                "definitions": ["マヨネーズ"]
+            }
+        ]
+    }
+]
