@@ -3,6 +3,7 @@
     <v-container fluid>
         <h1 class="main-title">Menu</h1>
 
+        <!-- Textbook section-->
         <div class="textbook-section mb-10">
             <h2 class="sub-title text-medium-emphasis">
                 Textbook<v-divider :thickness="2"></v-divider>
@@ -33,6 +34,7 @@
             </v-row>
         </div>
 
+        <!-- Extra section-->
         <div class="extra-section mb-10">
             <h2 class="sub-title text-medium-emphasis">
                 Extra<v-divider :thickness="2"></v-divider>
