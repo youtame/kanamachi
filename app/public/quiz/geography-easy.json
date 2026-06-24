@@ -103,5 +103,112 @@
                 "definitions": ["ジャカルタを首都とする国は"]
             }
         ]
+    },
+    {
+        "chapter": 2,
+        "vocabulary": [
+            {
+                "id": "c2a0f1d2-8c3e-4b2a-9d11-2a2b3c4d5e01",
+                "expression": "日本",
+                "definitions": ["大阪や名古屋がある国は"]
+            },
+            {
+                "id": "c2a0f1d2-8c3e-4b2a-9d11-2a2b3c4d5e02",
+                "expression": "中国",
+                "definitions": ["上海や広州がある国は"]
+            },
+            {
+                "id": "c2a0f1d2-8c3e-4b2a-9d11-2a2b3c4d5e03",
+                "expression": "韓国",
+                "definitions": ["釜山や大邱がある国は"]
+            },
+            {
+                "id": "c2a0f1d2-8c3e-4b2a-9d11-2a2b3c4d5e04",
+                "expression": "インド",
+                "definitions": ["ムンバイやベンガルールがある国は"]
+            },
+            {
+                "id": "c2a0f1d2-8c3e-4b2a-9d11-2a2b3c4d5e05",
+                "expression": "タイ",
+                "definitions": ["チェンマイやプーケットがある国は"]
+            },
+            {
+                "id": "c2a0f1d2-8c3e-4b2a-9d11-2a2b3c4d5e06",
+                "expression": "ベトナム",
+                "definitions": ["ホーチミン市やダナンがある国は"]
+            },
+            {
+                "id": "c2a0f1d2-8c3e-4b2a-9d11-2a2b3c4d5e07",
+                "expression": "フランス",
+                "definitions": ["リヨンやマルセイユがある国は"]
+            },
+            {
+                "id": "c2a0f1d2-8c3e-4b2a-9d11-2a2b3c4d5e08",
+                "expression": "ドイツ",
+                "definitions": ["ミュンヘンやハンブルクがある国は"]
+            },
+            {
+                "id": "c2a0f1d2-8c3e-4b2a-9d11-2a2b3c4d5e09",
+                "expression": "イギリス",
+                "definitions": ["マンチェスターやリバプールがある国は"]
+            },
+            {
+                "id": "c2a0f1d2-8c3e-4b2a-9d11-2a2b3c4d5e10",
+                "expression": "イタリア",
+                "definitions": ["ミラノやナポリがある国は"]
+            },
+            {
+                "id": "c2a0f1d2-8c3e-4b2a-9d11-2a2b3c4d5e11",
+                "expression": "スペイン",
+                "definitions": ["バルセロナやバレンシアがある国は"]
+            },
+            {
+                "id": "c2a0f1d2-8c3e-4b2a-9d11-2a2b3c4d5e12",
+                "expression": "アメリカ合衆国",
+                "definitions": ["ニューヨークやロサンゼルスがある国は"]
+            },
+            {
+                "id": "c2a0f1d2-8c3e-4b2a-9d11-2a2b3c4d5e13",
+                "expression": "カナダ",
+                "definitions": ["トロントやバンクーバーがある国は"]
+            },
+            {
+                "id": "c2a0f1d2-8c3e-4b2a-9d11-2a2b3c4d5e14",
+                "expression": "ブラジル",
+                "definitions": ["サンパウロやリオデジャネイロがある国は"]
+            },
+            {
+                "id": "c2a0f1d2-8c3e-4b2a-9d11-2a2b3c4d5e15",
+                "expression": "オーストラリア",
+                "definitions": ["シドニーやメルボルンがある国は"]
+            },
+            {
+                "id": "c2a0f1d2-8c3e-4b2a-9d11-2a2b3c4d5e16",
+                "expression": "ロシア",
+                "definitions": [
+                    "サンクトペテルブルクやノヴォシビルスクがある国は"
+                ]
+            },
+            {
+                "id": "c2a0f1d2-8c3e-4b2a-9d11-2a2b3c4d5e17",
+                "expression": "メキシコ",
+                "definitions": ["グアダラハラやモンテレイがある国は"]
+            },
+            {
+                "id": "c2a0f1d2-8c3e-4b2a-9d11-2a2b3c4d5e18",
+                "expression": "エジプト",
+                "definitions": ["アレクサンドリアやギザがある国は"]
+            },
+            {
+                "id": "c2a0f1d2-8c3e-4b2a-9d11-2a2b3c4d5e19",
+                "expression": "南アフリカ共和国",
+                "definitions": ["ケープタウンやダーバンがある国は"]
+            },
+            {
+                "id": "c2a0f1d2-8c3e-4b2a-9d11-2a2b3c4d5e20",
+                "expression": "インドネシア",
+                "definitions": ["スラバヤやバンドンがある国は"]
+            }
+        ]
     }
 ]
