@@ -1,0 +1,107 @@
+[
+    {
+        "chapter": 1,
+        "vocabulary": [
+            {
+                "id": "c1a0f1d2-8c3e-4b2a-9d11-1a2b3c4d5e01",
+                "expression": "日本",
+                "definitions": ["東京を首都とする国は"]
+            },
+            {
+                "id": "c1a0f1d2-8c3e-4b2a-9d11-1a2b3c4d5e02",
+                "expression": "中国",
+                "definitions": ["北京を首都とする国は"]
+            },
+            {
+                "id": "c1a0f1d2-8c3e-4b2a-9d11-1a2b3c4d5e03",
+                "expression": "韓国",
+                "definitions": ["ソウルを首都とする国は"]
+            },
+            {
+                "id": "c1a0f1d2-8c3e-4b2a-9d11-1a2b3c4d5e04",
+                "expression": "インド",
+                "definitions": ["ニューデリーを首都とする国は"]
+            },
+            {
+                "id": "c1a0f1d2-8c3e-4b2a-9d11-1a2b3c4d5e05",
+                "expression": "タイ",
+                "definitions": ["バンコクを首都とする国は"]
+            },
+            {
+                "id": "c1a0f1d2-8c3e-4b2a-9d11-1a2b3c4d5e06",
+                "expression": "ベトナム",
+                "definitions": ["ハノイを首都とする国は"]
+            },
+            {
+                "id": "c1a0f1d2-8c3e-4b2a-9d11-1a2b3c4d5e07",
+                "expression": "フランス",
+                "definitions": ["パリを首都とする国は"]
+            },
+            {
+                "id": "c1a0f1d2-8c3e-4b2a-9d11-1a2b3c4d5e08",
+                "expression": "ドイツ",
+                "definitions": ["ベルリンを首都とする国は"]
+            },
+            {
+                "id": "c1a0f1d2-8c3e-4b2a-9d11-1a2b3c4d5e09",
+                "expression": "イギリス",
+                "definitions": ["ロンドンを首都とする国は"]
+            },
+            {
+                "id": "c1a0f1d2-8c3e-4b2a-9d11-1a2b3c4d5e10",
+                "expression": "イタリア",
+                "definitions": ["ローマを首都とする国は"]
+            },
+            {
+                "id": "c1a0f1d2-8c3e-4b2a-9d11-1a2b3c4d5e11",
+                "expression": "スペイン",
+                "definitions": ["マドリードを首都とする国は"]
+            },
+            {
+                "id": "c1a0f1d2-8c3e-4b2a-9d11-1a2b3c4d5e12",
+                "expression": "アメリカ合衆国",
+                "definitions": ["ワシントンD.C.を首都とする国は"]
+            },
+            {
+                "id": "c1a0f1d2-8c3e-4b2a-9d11-1a2b3c4d5e13",
+                "expression": "カナダ",
+                "definitions": ["オタワを首都とする国は"]
+            },
+            {
+                "id": "c1a0f1d2-8c3e-4b2a-9d11-1a2b3c4d5e14",
+                "expression": "ブラジル",
+                "definitions": ["ブラジリアを首都とする国は"]
+            },
+            {
+                "id": "c1a0f1d2-8c3e-4b2a-9d11-1a2b3c4d5e15",
+                "expression": "オーストラリア",
+                "definitions": ["キャンベラを首都とする国は"]
+            },
+            {
+                "id": "c1a0f1d2-8c3e-4b2a-9d11-1a2b3c4d5e16",
+                "expression": "ロシア",
+                "definitions": ["モスクワを首都とする国は"]
+            },
+            {
+                "id": "c1a0f1d2-8c3e-4b2a-9d11-1a2b3c4d5e17",
+                "expression": "メキシコ",
+                "definitions": ["メキシコシティを首都とする国は"]
+            },
+            {
+                "id": "c1a0f1d2-8c3e-4b2a-9d11-1a2b3c4d5e18",
+                "expression": "エジプト",
+                "definitions": ["カイロを首都とする国は"]
+            },
+            {
+                "id": "c1a0f1d2-8c3e-4b2a-9d11-1a2b3c4d5e19",
+                "expression": "南アフリカ共和国",
+                "definitions": ["プレトリアを首都とする国は"]
+            },
+            {
+                "id": "c1a0f1d2-8c3e-4b2a-9d11-1a2b3c4d5e20",
+                "expression": "インドネシア",
+                "definitions": ["ジャカルタを首都とする国は"]
+            }
+        ]
+    }
+]

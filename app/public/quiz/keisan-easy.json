@@ -1,0 +1,107 @@
+[
+    {
+        "chapter": 1,
+        "vocabulary": [
+            {
+                "id": "7f8b3f12-5e3d-4b6a-9c12-a1d2e3f4b501",
+                "expression": "408",
+                "definitions": ["12 × 34"]
+            },
+            {
+                "id": "8a9c4d23-6f4e-4c7b-8d23-b2e3f4a5c612",
+                "expression": "1118",
+                "definitions": ["26 × 43"]
+            },
+            {
+                "id": "9bad5e34-705f-4d8c-9e34-c3f4a5b6d723",
+                "expression": "1624",
+                "definitions": ["28 × 58"]
+            },
+            {
+                "id": "acbe6f45-8160-4e9d-af45-d4a5b6c7e834",
+                "expression": "2484",
+                "definitions": ["46 × 54"]
+            },
+            {
+                "id": "bdcf7056-9271-4fae-b056-e5b6c7d8f945",
+                "expression": "1890",
+                "definitions": ["35 × 54"]
+            },
+            {
+                "id": "ced08167-a382-40bf-c167-f6c7d8e9a056",
+                "expression": "1640",
+                "definitions": ["40 × 41"]
+            },
+            {
+                "id": "dfe19278-b493-41c0-d278-07d8e9f0b167",
+                "expression": "2622",
+                "definitions": ["46 × 57"]
+            },
+            {
+                "id": "e0f2a389-c5a4-42d1-e389-18e9f0a1c278",
+                "expression": "2968",
+                "definitions": ["53 × 56"]
+            },
+            {
+                "id": "f1a3b49a-d6b5-43e2-f49a-29f0a1b2d389",
+                "expression": "4032",
+                "definitions": ["56 × 72"]
+            },
+            {
+                "id": "02b4c5ab-e7c6-44f3-05ab-3a01b2c3e49a",
+                "expression": "4558",
+                "definitions": ["67 × 68"]
+            },
+            {
+                "id": "13c5d6bc-f8d7-4504-16bc-4b12c3d4f5ab",
+                "expression": "5684",
+                "definitions": ["74 × 76"]
+            },
+            {
+                "id": "24d6e7cd-09e8-4615-27cd-5c23d4e5a6bc",
+                "expression": "6237",
+                "definitions": ["81 × 77"]
+            },
+            {
+                "id": "35e7f8de-1af9-4726-38de-6d34e5f6b7cd",
+                "expression": "7056",
+                "definitions": ["84 × 84"]
+            },
+            {
+                "id": "46f809ef-2b0a-4837-49ef-7e45f6a7c8de",
+                "expression": "7470",
+                "definitions": ["83 × 90"]
+            },
+            {
+                "id": "57091a0f-3c1b-4948-5a0f-8f56a7b8d9ef",
+                "expression": "5040",
+                "definitions": ["63 × 80"]
+            },
+            {
+                "id": "681a2b10-4d2c-4a59-6b10-9067b8c9e0f0",
+                "expression": "2915",
+                "definitions": ["55 × 53"]
+            },
+            {
+                "id": "792b3c21-5e3d-4b6a-7c21-a178c9d0f101",
+                "expression": "5929",
+                "definitions": ["77 × 77"]
+            },
+            {
+                "id": "8a3c4d32-6f4e-4c7b-8d32-b289d0e1a212",
+                "expression": "4278",
+                "definitions": ["62 × 69"]
+            },
+            {
+                "id": "9b4d5e43-705f-4d8c-9e43-c39ae1f2b323",
+                "expression": "5248",
+                "definitions": ["64 × 82"]
+            },
+            {
+                "id": "ac5e6f54-8160-4e9d-af54-d4abf203c434",
+                "expression": "7569",
+                "definitions": ["87 × 87"]
+            }
+        ]
+    }
+]

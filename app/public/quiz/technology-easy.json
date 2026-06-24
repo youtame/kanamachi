@@ -1,0 +1,363 @@
+[
+    {
+        "chapter": 1,
+        "vocabulary": [
+            {
+                "id": "a3f5c6d1-7b2e-4a9f-8c31-5d6e7f8a9b10",
+                "expression": "コンピュータ",
+                "definitions": ["データを処理し、計算や制御を行う電子機器"]
+            },
+            {
+                "id": "b4e6d7f2-8c3a-4b1d-9e42-6f7a8b9c0d11",
+                "expression": "ハードウェア",
+                "definitions": ["コンピュータを構成する物理的な機器"]
+            },
+            {
+                "id": "c5f7e8a3-9d4b-4c2e-a153-7a8b9c0d1e12",
+                "expression": "ソフトウェア",
+                "definitions": [
+                    "コンピュータ上で動作するプログラムやシステムの総称"
+                ]
+            },
+            {
+                "id": "d6a8f9b4-0e5c-4d3f-b264-8b9c0d1e2f13",
+                "expression": "CPU",
+                "definitions": ["コンピュータの演算や制御を担当する装置"]
+            },
+            {
+                "id": "e7b9a0c5-1f6d-4e4a-c375-9c0d1e2f3a14",
+                "expression": "メモリ",
+                "definitions": ["データやプログラムを一時的に記憶する装置"]
+            },
+            {
+                "id": "f8c0b1d6-2a7e-4f5b-d486-0d1e2f3a4b15",
+                "expression": "RAM",
+                "definitions": ["読み書きが可能な主記憶装置"]
+            },
+            {
+                "id": "09d1c2e7-3b8f-406c-e597-1e2f3a4b5c16",
+                "expression": "ROM",
+                "definitions": ["基本的に読み取り専用の記憶装置"]
+            },
+            {
+                "id": "1ae2d3f8-4c90-417d-f6a8-2f3a4b5c6d17",
+                "expression": "OS",
+                "definitions": ["コンピュータ全体の管理を行う基本ソフトウェア"]
+            },
+            {
+                "id": "2bf3e4a9-5d01-428e-a7b9-3a4b5c6d7e18",
+                "expression": "アプリケーション",
+                "definitions": ["特定の目的のために利用するソフトウェア"]
+            },
+            {
+                "id": "3c04f5ba-6e12-439f-b8ca-4b5c6d7e8f19",
+                "expression": "ブラウザ",
+                "definitions": ["Webページを閲覧するためのソフトウェア"]
+            },
+            {
+                "id": "4d15a6cb-7f23-44a0-c9db-5c6d7e8f9a20",
+                "expression": "ネットワーク",
+                "definitions": ["複数の機器を接続して通信できる仕組み"]
+            },
+            {
+                "id": "5e26b7dc-8034-45b1-daec-6d7e8f9a0b21",
+                "expression": "インターネット",
+                "definitions": [
+                    "世界中のネットワークが相互接続された巨大な通信網"
+                ]
+            },
+            {
+                "id": "6f37c8ed-9145-46c2-ebfd-7e8f9a0b1c22",
+                "expression": "サーバ",
+                "definitions": ["サービスやデータを提供するコンピュータ"]
+            },
+            {
+                "id": "7048d9fe-a256-47d3-fc0e-8f9a0b1c2d23",
+                "expression": "クライアント",
+                "definitions": [
+                    "サーバからサービスを受けるコンピュータや利用者"
+                ]
+            },
+            {
+                "id": "8159ea0f-b367-48e4-0d1f-9a0b1c2d3e24",
+                "expression": "IPアドレス",
+                "definitions": ["ネットワーク上で機器を識別するための番号"]
+            },
+            {
+                "id": "926afb10-c478-49f5-1e20-0b1c2d3e4f25",
+                "expression": "アルゴリズム",
+                "definitions": ["問題を解決するための処理手順"]
+            },
+            {
+                "id": "a37b0c21-d589-4a06-2f31-1c2d3e4f5a26",
+                "expression": "プログラム",
+                "definitions": [
+                    "コンピュータに実行させる処理手順を記述したもの"
+                ]
+            },
+            {
+                "id": "b48c1d32-e69a-4b17-3042-2d3e4f5a6b27",
+                "expression": "データベース",
+                "definitions": ["整理されたデータを蓄積し管理する仕組み"]
+            },
+            {
+                "id": "c59d2e43-f7ab-4c28-4153-3e4f5a6b7c28",
+                "expression": "情報セキュリティ",
+                "definitions": ["情報を安全に管理し保護すること"]
+            },
+            {
+                "id": "d6ae3f54-08bc-4d39-5264-4f5a6b7c8d29",
+                "expression": "パスワード",
+                "definitions": [
+                    "利用者本人であることを確認するための秘密の文字列"
+                ]
+            }
+        ]
+    },
+    {
+        "chapter": 2,
+        "vocabulary": [
+            {
+                "id": "a1d2c3b4-e5f6-4789-9abc-0d1e2f3a4b50",
+                "expression": "TCP/IP",
+                "definitions": [
+                    "インターネットで標準的に利用される通信プロトコル群"
+                ]
+            },
+            {
+                "id": "b2e3d4c5-f6a7-4890-abcd-1e2f3a4b5c61",
+                "expression": "TCP",
+                "definitions": [
+                    "通信相手への到達確認や再送制御を行う信頼性の高い通信プロトコル"
+                ]
+            },
+            {
+                "id": "c3f4e5d6-a7b8-4901-bcde-2f3a4b5c6d72",
+                "expression": "UDP",
+                "definitions": [
+                    "通信速度を優先し到達確認を行わない通信プロトコル"
+                ]
+            },
+            {
+                "id": "d4a5f6e7-b8c9-4012-cdef-3a4b5c6d7e83",
+                "expression": "IPアドレス",
+                "definitions": ["ネットワーク上の機器を識別するための番号"]
+            },
+            {
+                "id": "e5b6a7f8-c9d0-4123-def0-4b5c6d7e8f94",
+                "expression": "DNS",
+                "definitions": ["ドメイン名とIPアドレスを対応付ける仕組み"]
+            },
+            {
+                "id": "f6c7b8a9-d0e1-4234-ef01-5c6d7e8f9a05",
+                "expression": "SSL",
+                "definitions": ["TLSの前身となった通信暗号化プロトコル"]
+            },
+            {
+                "id": "07d8c9b0-e1f2-4345-f012-6d7e8f9a0b16",
+                "expression": "TLS",
+                "definitions": [
+                    "インターネット通信を暗号化して安全に行うためのプロトコル"
+                ]
+            },
+            {
+                "id": "18e9d0c1-f2a3-4456-0123-7e8f9a0b1c27",
+                "expression": "TLSハンドシェイク",
+                "definitions": [
+                    "通信開始前に暗号方式や鍵情報を安全に交換する手続き"
+                ]
+            },
+            {
+                "id": "29f0e1d2-a3b4-4567-1234-8f9a0b1c2d38",
+                "expression": "SSH",
+                "definitions": [
+                    "ネットワーク経由で安全にリモートログインするためのプロトコル"
+                ]
+            },
+            {
+                "id": "3a01f2e3-b4c5-4678-2345-9a0b1c2d3e49",
+                "expression": "HTTPS",
+                "definitions": ["TLSによって保護されたHTTP通信"]
+            },
+            {
+                "id": "4b12a3f4-c5d6-4789-3456-0b1c2d3e4f50",
+                "expression": "公開鍵暗号方式",
+                "definitions": ["暗号化と復号に異なる鍵を利用する暗号方式"]
+            },
+            {
+                "id": "5c23b4a5-d6e7-4890-4567-1c2d3e4f5a61",
+                "expression": "共通鍵暗号方式",
+                "definitions": ["暗号化と復号に同じ鍵を利用する暗号方式"]
+            },
+            {
+                "id": "6d34c5b6-e7f8-4901-5678-2d3e4f5a6b72",
+                "expression": "公開鍵",
+                "definitions": ["誰でも取得できる暗号化用の鍵"]
+            },
+            {
+                "id": "7e45d6c7-f809-4012-6789-3e4f5a6b7c83",
+                "expression": "秘密鍵",
+                "definitions": ["所有者のみが保持する復号用の鍵"]
+            },
+            {
+                "id": "8f56e7d8-091a-4123-7890-4f5a6b7c8d94",
+                "expression": "電子署名",
+                "definitions": [
+                    "送信者の正当性と改ざんの有無を確認するための仕組み"
+                ]
+            },
+            {
+                "id": "9067f8e9-1a2b-4234-8901-5a6b7c8d9e05",
+                "expression": "ハッシュ関数",
+                "definitions": ["任意長のデータから固定長の値を生成する関数"]
+            },
+            {
+                "id": "a17809fa-2b3c-4345-9012-6b7c8d9e0f16",
+                "expression": "ハッシュ値",
+                "definitions": ["ハッシュ関数によって生成された固定長のデータ"]
+            },
+            {
+                "id": "b2891a0b-3c4d-4456-0123-7c8d9e0f1a27",
+                "expression": "認証",
+                "definitions": ["利用者が本人であることを確認すること"]
+            },
+            {
+                "id": "c39a2b1c-4d5e-4567-1234-8d9e0f1a2b38",
+                "expression": "デジタル証明書",
+                "definitions": [
+                    "公開鍵とその所有者の対応関係を証明する電子的な証明書"
+                ]
+            },
+            {
+                "id": "d4ab3c2d-5e6f-4678-2345-9e0f1a2b3c49",
+                "expression": "認証局",
+                "definitions": ["デジタル証明書を発行し正当性を保証する組織"]
+            }
+        ]
+    },
+    {
+        "chapter": 3,
+        "vocabulary": [
+            {
+                "id": "e1b2c3d4-f5a6-4789-8abc-1d2e3f4a5b60",
+                "expression": "データベース",
+                "definitions": [
+                    "大量のデータを整理して蓄積し、効率よく利用できるようにした仕組み"
+                ]
+            },
+            {
+                "id": "f2c3d4e5-a6b7-4890-9bcd-2e3f4a5b6c71",
+                "expression": "リレーショナルデータベース",
+                "definitions": [
+                    "表（テーブル）同士の関係を利用してデータを管理するデータベース"
+                ]
+            },
+            {
+                "id": "03d4e5f6-b7c8-4901-acde-3f4a5b6c7d82",
+                "expression": "テーブル",
+                "definitions": ["行と列で構成されるデータの集合"]
+            },
+            {
+                "id": "14e5f6a7-c8d9-4012-bdef-4a5b6c7d8e93",
+                "expression": "レコード",
+                "definitions": ["テーブル内の1件分のデータ"]
+            },
+            {
+                "id": "25f6a7b8-d9e0-4123-cef0-5b6c7d8e9f04",
+                "expression": "フィールド",
+                "definitions": ["テーブルの各項目を表す列"]
+            },
+            {
+                "id": "36a7b8c9-e0f1-4234-df01-6c7d8e9f0a15",
+                "expression": "主キー",
+                "definitions": ["レコードを一意に識別するための項目"]
+            },
+            {
+                "id": "47b8c9d0-f1a2-4345-e012-7d8e9f0a1b26",
+                "expression": "外部キー",
+                "definitions": ["他のテーブルの主キーを参照する項目"]
+            },
+            {
+                "id": "58c9d0e1-a2b3-4456-f123-8e9f0a1b2c37",
+                "expression": "正規化",
+                "definitions": [
+                    "データの重複や不整合を減らすために表を整理すること"
+                ]
+            },
+            {
+                "id": "69d0e1f2-b3c4-4567-0124-9f0a1b2c3d48",
+                "expression": "SQL",
+                "definitions": ["データベースの操作や検索を行うための言語"]
+            },
+            {
+                "id": "7ae1f203-c4d5-4678-1235-0a1b2c3d4e59",
+                "expression": "SELECT",
+                "definitions": ["SQLでデータを検索・取得する命令"]
+            },
+            {
+                "id": "8bf20314-d5e6-4789-2346-1b2c3d4e5f60",
+                "expression": "人工知能",
+                "definitions": [
+                    "人間の知的な活動をコンピュータで実現しようとする技術"
+                ]
+            },
+            {
+                "id": "9c031425-e6f7-4890-3457-2c3d4e5f6a71",
+                "expression": "機械学習",
+                "definitions": ["データから規則性を学習し予測や判断を行う技術"]
+            },
+            {
+                "id": "ad142536-f708-4901-4568-3d4e5f6a7b82",
+                "expression": "教師あり学習",
+                "definitions": ["正解データを用いて学習を行う機械学習手法"]
+            },
+            {
+                "id": "be253647-0819-4012-5679-4e5f6a7b8c93",
+                "expression": "教師なし学習",
+                "definitions": [
+                    "正解データを用いずにデータの特徴や構造を学習する手法"
+                ]
+            },
+            {
+                "id": "cf364758-192a-4123-6780-5f6a7b8c9d04",
+                "expression": "強化学習",
+                "definitions": [
+                    "試行錯誤を通じて報酬を最大化する行動を学習する手法"
+                ]
+            },
+            {
+                "id": "d0475869-2a3b-4234-7891-6a7b8c9d0e15",
+                "expression": "ディープラーニング",
+                "definitions": [
+                    "多層のニューラルネットワークを利用する機械学習手法"
+                ]
+            },
+            {
+                "id": "e158697a-3b4c-4345-8902-7b8c9d0e1f26",
+                "expression": "ニューラルネットワーク",
+                "definitions": ["人間の脳神経回路を模した情報処理モデル"]
+            },
+            {
+                "id": "f2697a8b-4c5d-4456-9013-8c9d0e1f2a37",
+                "expression": "ビッグデータ",
+                "definitions": [
+                    "従来の方法では処理が困難な巨大かつ多様なデータ群"
+                ]
+            },
+            {
+                "id": "037a8b9c-5d6e-4567-0124-9d0e1f2a3b48",
+                "expression": "IoT",
+                "definitions": [
+                    "さまざまなモノをインターネットに接続する仕組み"
+                ]
+            },
+            {
+                "id": "148b9cad-6e7f-4678-1235-0e1f2a3b4c59",
+                "expression": "データマイニング",
+                "definitions": [
+                    "大量のデータから有用な規則や知識を発見する技術"
+                ]
+            }
+        ]
+    }
+]

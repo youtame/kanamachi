@@ -78,8 +78,8 @@
             },
             {
                 "id": "9A26D64F-1DD2-4024-B219-EFECFCCD2995",
-                "expression": "Geniusが比較的苦手なものは",
-                "definitions": ["マヨネーズ"]
+                "expression": "マヨネーズ",
+                "definitions": ["Geniusが比較的苦手なものは"]
             }
         ]
     }

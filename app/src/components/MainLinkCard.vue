@@ -1,3 +1,4 @@
+<!-- components/MainLinkCard.vue -->
 <template>
     <v-card
         :to="to"

@@ -1,3 +1,4 @@
+// main.ts
 import { createApp } from "vue";
 import { createPinia } from "pinia";
 import App from "./App.vue";
@@ -10,6 +11,7 @@ import { createVuetify } from "vuetify";
 // MDI icon svg
 import { aliases, mdi } from "vuetify/iconsets/mdi-svg";
 
+// Vuetify settings
 const vuetify = createVuetify({
     theme: {
         defaultTheme: "light",
@@ -38,8 +40,8 @@ const vuetify = createVuetify({
 
 const app = createApp(App);
 
-app.use(createPinia());
-app.use(router);
-app.use(vuetify);
+app.use(createPinia()); // Pinia
+app.use(router); // Vue-router
+app.use(vuetify); // Vuetify
 
 app.mount("#app");
