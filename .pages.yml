@@ -1,36 +1,30 @@
-apps:
-    - id: kanamachi-quiz
-      name: kanamachi-quiz-manager
-      source:
-          type: github
-      content:
-          - name: quiz_files
-            label: クイズファイル一覧
-            path: app/public/quiz
-            type: collection
-            extension: json
-            format: json
-            schema:
-                - type: list
-                  name: ""
-                  label: チャプターリスト
-                  labelField: "chapter"
+content:
+    - name: quiz_files
+      label: All Quiz Files
+      type: collection
+      path: app/public/quiz
+      extension: json
+      format: json
+      fields:
+          - type: object
+            name: ""
+            label: Chapter info
+            fields:
+                - name: chapter
+                  label: Chapter (Number)
+                  type: number
+
+                - name: vocabulary
+                  label: 単語・クイズリスト
+                  type: object
                   fields:
-                      - name: chapter
-                        label: チャプター番号 (数字)
-                        type: number
-                      - name: vocabulary
-                        label: 単語・クイズリスト
-                        type: list
-                        labelField: "expression"
-                        fields:
-                            - name: id
-                              label: ID (UUIDなど)
-                              type: string
-                            - name: expression
-                              label: 問題 / 単語 (例 水素)
-                              type: string
-                            - name: definitions
-                              label: 答え / 定義 (例 H)
-                              type: list
-                              field: { type: string }
+                      - name: id
+                        label: ID (UUIDなど)
+                        type: string
+                      - name: expression
+                        label: Question
+                        type: string
+
+                      - name: definitions
+                        label: Answer
+                        type: text
