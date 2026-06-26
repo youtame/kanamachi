@@ -3,11 +3,10 @@ content:
       label: All Quiz Files
       type: collection
       path: app/public/quiz
-      extension: json
       format: json
       fields:
           - type: object
-            name: ""
+            name: "Chapters"
             label: Chapter info
             fields:
                 - name: chapter
@@ -15,11 +14,11 @@ content:
                   type: number
 
                 - name: vocabulary
-                  label: 単語・クイズリスト
+                  label: Quiz List
                   type: object
                   fields:
                       - name: id
-                        label: ID (UUIDなど)
+                        label: UUID
                         type: string
                       - name: expression
                         label: Question
