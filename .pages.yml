@@ -6,7 +6,7 @@ apps:
       content:
           - name: quiz_files
             label: クイズファイル一覧
-            folder: app/public/quiz
+            path: app/public/quiz
             type: collection
             extension: json
             format: json
