@@ -1,0 +1,35 @@
+apps:
+    - id: kanamachi-quiz
+      name: kanamachi-quiz-manager
+      source:
+          type: github
+      content:
+          - name: quiz_files
+            label: クイズファイル一覧
+            folder: app/public/quiz
+            type: collection
+            schema:
+                - type: list
+                  name: ""
+                  label: チャプターリスト
+                  labelField: "chapter"
+                  fields:
+                      - name: chapter
+                        label: チャプター番号 (数字)
+                        type: number
+                      - name: vocabulary
+                        label: 単語・クイズリスト
+                        type: list
+                        labelField: "expression"
+                        fields:
+                            - name: id
+                              label: ID (UUIDなど)
+                              type: string
+                              default: ""
+                            - name: expression
+                              label: 問題 / 単語 (例 水素)
+                              type: string
+                            - name: definitions
+                              label: 答え / 定義 (例 H)
+                              type: list
+                              field: { type: string }
