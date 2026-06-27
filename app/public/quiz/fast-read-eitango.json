@@ -195,7 +195,7 @@
                 "id": "554cde14-108b-48aa-bca3-7df9cae54075",
                 "expression": "be indispensable to[for] ~",
                 "sentence": "Eating is indispensable to human beings",
-                "sentence_blank": "Eating __ _____________ to human beings",
+                "sentence_blank": "Eating __ _____________ __ human beings",
                 "correct": "is indispensable to",
                 "correct_jp": "食べることは人間にとって必要不可欠なものだ",
                 "definitions": ["〜にとって不可欠である"]

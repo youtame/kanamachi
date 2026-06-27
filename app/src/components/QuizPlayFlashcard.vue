@@ -1,3 +1,4 @@
+<!-- components/QuizPlayFlashcard.vue -->
 <template>
     <div class="flashcard-mode-wrapper">
         <div class="flashcard-container my-4 my-sm-8">

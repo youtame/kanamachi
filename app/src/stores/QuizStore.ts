@@ -1,4 +1,3 @@
-// stores/QuizStore.ts
 import { defineStore } from "pinia";
 import { ref, computed } from "vue";
 
@@ -7,6 +6,10 @@ export interface VocabularyItem {
     id: string;
     expression: string;
     definitions: string[];
+    sentence?: string;
+    sentence_blank?: string;
+    correct?: string;
+    correct_jp?: string;
 }
 
 export interface ChapterData {
@@ -18,7 +21,8 @@ export interface FormattedQuestion {
     id: string;
     question: string;
     answer: string;
-    choices: string[];
+    choices?: string[];
+    sentenceBlank?: string;
 }
 
 export const useQuizStore = defineStore("quiz", () => {
@@ -65,7 +69,6 @@ export const useQuizStore = defineStore("quiz", () => {
 
         let formatted: FormattedQuestion[] = vocabList.map((item) => {
             const correctAnswer = item.expression;
-
             const otherChoices = allExpressions.filter(
                 (exp) => exp !== correctAnswer,
             );
@@ -80,13 +83,51 @@ export const useQuizStore = defineStore("quiz", () => {
             };
         });
 
-        formatted = shuffleArray(formatted);
+        resetStoreState(formatted, limit);
+    }
 
-        if (limit > 0) {
-            formatted = formatted.slice(0, limit);
+    function initInputQuiz(
+        rawData: ChapterData[],
+        targetChapter: number,
+        limit: number,
+    ) {
+        const targetData = rawData.find(
+            (c) => Number(c.chapter) === targetChapter,
+        );
+        if (!targetData || !targetData.vocabulary.length) {
+            questions.value = [];
+            return;
         }
 
-        questions.value = formatted;
+        let formatted: FormattedQuestion[] = targetData.vocabulary.map(
+            (item) => {
+                const isSentenceQuiz = !!item.sentence_blank;
+
+                return {
+                    id: item.id,
+                    question: isSentenceQuiz
+                        ? item.correct_jp || item.definitions[0]
+                        : item.definitions[0],
+                    answer: isSentenceQuiz
+                        ? item.correct || item.expression
+                        : item.expression,
+                    sentenceBlank: item.sentence_blank || undefined,
+                };
+            },
+        );
+
+        resetStoreState(formatted, limit);
+    }
+
+    function resetStoreState(
+        formattedData: FormattedQuestion[],
+        limit: number,
+    ) {
+        let finalData = shuffleArray(formattedData);
+        if (limit > 0) {
+            finalData = finalData.slice(0, limit);
+        }
+        questions.value = finalData;
         currentIndex.value = 0;
         score.value = 0;
         isFinished.value = false;
@@ -94,11 +135,17 @@ export const useQuizStore = defineStore("quiz", () => {
         isCorrect.value = null;
     }
 
-    function checkAnswer(choice: string) {
+    function checkAnswer(inputAnswer: string) {
         if (selectedAnswer.value !== null) return;
 
-        selectedAnswer.value = choice;
-        const correct = choice === currentQuestion.value!.answer;
+        selectedAnswer.value = inputAnswer;
+
+        const userAnswer = inputAnswer.trim().toLowerCase();
+        const correctAnswer = currentQuestion
+            .value!.answer.trim()
+            .toLowerCase();
+
+        const correct = userAnswer === correctAnswer;
         isCorrect.value = correct;
 
         if (correct) {
@@ -128,6 +175,7 @@ export const useQuizStore = defineStore("quiz", () => {
         totalQuestions,
         progress,
         initQuiz,
+        initInputQuiz,
         checkAnswer,
         nextQuestion,
     };
