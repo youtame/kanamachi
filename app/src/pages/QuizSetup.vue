@@ -111,7 +111,7 @@ const textbookName = computed(() => {
 });
 
 const selectedChapter = ref<number | null>(null);
-const selectedMode = ref<string>("choice");
+const selectedMode = ref<string>("flashcard");
 const selectedLimit = ref<number>(10);
 
 const chapterOptions = ref<{ label: string; value: number }[]>([]);
@@ -120,6 +120,7 @@ const isLoading = ref<boolean>(false);
 const modeOptions = [
     { label: "FlashCard", value: "flashcard" },
     { label: "Choice", value: "choice" },
+    { label: "Input", value: "input" },
 ];
 
 const limitOptions = [

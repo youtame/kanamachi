@@ -160,5 +160,305 @@
                 "definitions": ["万一···なら〔でも〕"]
             }
         ]
+    },
+    {
+        "chapter": 43,
+        "vocabulary": [
+            {
+                "id": "35950427-0e2B-4f5d-b627-039cf6fb4263",
+                "expression": "be native to ~",
+                "sentence": "These tomatoes are native to this region",
+                "sentence_blank": "These tomatoes ___ ______ __ this region",
+                "correct": "are native to",
+                "correct_jp": "これらのトマトはこの地域が原産である",
+                "definitions": ["(動植物が）〜の原産である;〜に馴染みがある"]
+            },
+            {
+                "id": "5109d242-7a0a-41ea-80e2-481f13f45e1d",
+                "expression": "be known to ~",
+                "sentence": "Mr.Tom is known to everyone in this school",
+                "sentence_blank": "Mr.Tom __ _____ __ everyone in this school",
+                "correct": "is known to",
+                "correct_jp": "この学校の誰もがトム先生を知っている",
+                "definitions": ["〜に知られている"]
+            },
+            {
+                "id": "7ce19158-88ff-4ba5-91ef-768a21b1bea0",
+                "expression": "by mistake",
+                "sentence": "Sorry, Tom took your bag by mistake",
+                "sentence_blank": "Sorry, Tom took your bag __ _______",
+                "correct": "by mistake",
+                "correct_jp": "すみません、トムが間違ってあなたのカバンを持って行ってしまいました",
+                "definitions": ["間違って;誤って"]
+            },
+            {
+                "id": "554cde14-108b-48aa-bca3-7df9cae54075",
+                "expression": "be indispensable to[for] ~",
+                "sentence": "Eating is indispensable to human beings",
+                "sentence_blank": "Eating __ _____________ __ human beings",
+                "correct": "is indispensable to",
+                "correct_jp": "食べることは人間にとって必要不可欠なものだ",
+                "definitions": ["〜にとって不可欠である"]
+            },
+            {
+                "id": "44f5fe0d-5fea-4006-9b5c-154334a9cb4b",
+                "expression": "avail oneself of ~",
+                "sentence": "She availed herself of the opportunity to get a job",
+                "sentence_blank": "She _______ _______ __ the opportunity to get a job",
+                "correct": "availed herself of",
+                "correct_jp": "彼女は仕事を得るためにその機会を利用した",
+                "definitions": ["〜（機会など）を利用する"]
+            },
+            {
+                "id": "3c289f81-514e-47a9-b479-638d7113592a",
+                "expression": "at first",
+                "sentence": "At first I didn't know who he was",
+                "sentence_blank": "__ _____ I didn't know who he was",
+                "correct": "At first",
+                "correct_jp": "最初、私は彼が誰だか分からなかった",
+                "definitions": ["最初は"]
+            },
+            {
+                "id": "a23d4add-f9e3-4fd7-bf9d-1bb5a93594e2",
+                "expression": "push one's way",
+                "sentence": "She pushed her way through the crowd",
+                "sentence_blank": "She ______ ___ ___ through the crowd",
+                "correct": "pushed her way",
+                "correct_jp": "彼女は人混みを押しのけて進んだ",
+                "definitions": ["押しのけて進む"]
+            },
+            {
+                "id": "e4b2d391-4f90-4a82-bd41-6c9213ef5a01",
+                "expression": "in search of ~",
+                "sentence": "She walked around the house in search of her glasses",
+                "sentence_blank": "She walked around the house __ ______ __ her glasses",
+                "correct": "in search of",
+                "correct_jp": "彼女はメガネを探して家の中を歩き回った",
+                "definitions": ["〜を探して;〜を求めて"]
+            },
+            {
+                "id": "2da1c54b-83ee-4217-bc09-9fd34c2117fa",
+                "expression": "be indifferent toward[to] ~",
+                "sentence": "He seems to be indifferent to fashion",
+                "sentence_blank": "He seems to __ ___________ __ fashion",
+                "correct": "be indifferent to",
+                "correct_jp": "彼はファッションに無関心であるようだ",
+                "definitions": ["〜に無関心である"]
+            },
+            {
+                "id": "901f4c56-78ab-4123-adcd-ef0123456789",
+                "expression": "do away with ~",
+                "sentence": "The school decided to do away with the old uniform",
+                "sentence_blank": "The school decided to __ ____ ____ the old uniform",
+                "correct": "do away with",
+                "correct_jp": "学校はその古い制服を廃止することを決定した",
+                "definitions": ["〜を捨てる、始末する;〜を廃止する"]
+            },
+            {
+                "id": "bc85d21e-f3a4-4d2c-91b5-82e74c10a3f5",
+                "expression": "in vain",
+                "sentence": "They searched for the missing cat in vain",
+                "sentence_blank": "They searched for the missing cat __ ____",
+                "correct": "in vain",
+                "correct_jp": "彼らは行方不明の猫を探したが無駄に終わった",
+                "definitions": ["無駄に;効果なく"]
+            },
+            {
+                "id": "fa47c109-2b3d-4e5f-a678-1c9d2b3e4f5a",
+                "expression": "by way of ~",
+                "sentence": "We traveled from Paris to London by way of the tunnel",
+                "sentence_blank": "We traveled from Paris to London __ ___ __ the tunnel",
+                "correct": "by way of",
+                "correct_jp": "私たちはトンネルを経由してパリからロンドンへ旅した",
+                "definitions": ["〜を通って;〜経由で"]
+            },
+            {
+                "id": "3d5e2f71-6a0b-4c9d-8e2f-1a3b5c7d9e1f",
+                "expression": "thanks to ~",
+                "sentence": "Thanks to your advice, I passed the exam",
+                "sentence_blank": "______ __ your advice, I passed the exam",
+                "correct": "Thanks to",
+                "correct_jp": "あなたの助言のおかげで、私は試験に合格した",
+                "definitions": ["〜のおかげで"]
+            },
+            {
+                "id": "7b8c9d0e-1f2a-4b3c-9d4e-5f6a7b8c9d0e",
+                "expression": "bring ~ to an end [a close]",
+                "sentence": "They managed to bring the meeting to an end",
+                "sentence_blank": "They managed to _____ the meeting __ __ ___",
+                "correct": "bring to an end",
+                "correct_jp": "彼らはなんとか会議を終わらせることができた",
+                "definitions": ["〜を終わらせる"]
+            },
+            {
+                "id": "1a2b3c4d-5e6f-4a7b-8c9d-0e1f2a3b4c5d",
+                "expression": "with a view to ...ing",
+                "sentence": "He studied hard with a view to entering the university",
+                "sentence_blank": "He studied hard ____ _ ____ __ entering the university",
+                "correct": "with a view to",
+                "correct_jp": "彼はその大学に入学する目的で一生懸命勉強した",
+                "definitions": ["〜するために;〜する目的で"]
+            }
+        ]
+    },
+    {
+        "chapter": 44,
+        "vocabulary": [
+            {
+                "id": "a82b9c3d-4e5f-4a6b-bd7c-8e9f0a1b2c3d",
+                "expression": "apply to ~",
+                "sentence": "This policy applies to this case.",
+                "sentence_blank": "This policy _______ __ this case.",
+                "correct": "applies to",
+                "correct_jp": "この方針はこのケースに当てはまる。",
+                "definitions": ["〜に当てはまる"]
+            },
+            {
+                "id": "f1e2d3c4-b5a6-4f7e-8d9c-0b1a2f3e4d5c",
+                "expression": "at one's disposal",
+                "sentence": "All the tools here are at your disposal.",
+                "sentence_blank": "All the tools here are __ ____ ________.",
+                "correct": "at your disposal",
+                "correct_jp": "ここにある道具は、全部あなたの思うままに使ってよい。",
+                "definitions": ["〜の思うままに"]
+            },
+            {
+                "id": "7a8b9c0d-1e2f-4a3b-8c4d-5e6f7a8b9c0d",
+                "expression": "for one thing ~, (for another ...)",
+                "sentence": "For one thing, fast food is bad for your health.",
+                "sentence_blank": "___ ___ _____, fast food is bad for your health.",
+                "correct": "For one thing",
+                "correct_jp": "1つには、ファストフードは健康に悪い。",
+                "definitions": [
+                    "（理由などを挙げて）1つには〜（、また1つには…）"
+                ]
+            },
+            {
+                "id": "2b3c4d5e-6f7a-4b8c-9d0e-1f2a3b4c5d6e",
+                "expression": "make friends with ~",
+                "sentence": "She can make friends with anyone.",
+                "sentence_blank": "She can ____ _______ ____ anyone.",
+                "correct": "make friends with",
+                "correct_jp": "彼女は誰とでも友達になることができる。",
+                "definitions": ["〜と友達になる；〜と親しくなる"]
+            },
+            {
+                "id": "c5d6e7f8-a9b0-4c1d-2e3f-4a5b6c7d8e9f",
+                "expression": "adapt to ~",
+                "sentence": "It takes time to adapt to a new school environment.",
+                "sentence_blank": "It takes time to _____ __ a new school environment.",
+                "correct": "adapt to",
+                "correct_jp": "新しい学校環境に適応するのには時間がかかるものだ。",
+                "definitions": ["〜に適応する；〜に順応する"]
+            },
+            {
+                "id": "0e1f2a3b-4c5d-4e6f-7a8b-9c0d1e2f3a4b",
+                "expression": "to put it another way",
+                "sentence": "To put it another way, we failed the project.",
+                "sentence_blank": "__ ___ __ _______ ___, we failed the project.",
+                "correct": "To put it another way",
+                "correct_jp": "別の言い方をすれば、私たちはプロジェクトに失敗したということだ。",
+                "definitions": ["別の言い方をすれば"]
+            },
+            {
+                "id": "8f9a0b1c-2d3e-4f4a-5b6c-7d8e9f0a1b2c",
+                "expression": "search for ~",
+                "sentence": "The police searched for the missing boy.",
+                "sentence_blank": "The police ________ ___ the missing boy.",
+                "correct": "searched for",
+                "correct_jp": "警察はその行方不明の少年を捜し求めた。",
+                "definitions": ["〜を捜し求める"]
+            },
+            {
+                "id": "3d4e5f6a-7b8c-4d9e-0f1a-2b3c4d5e6f7a",
+                "expression": "have a good command of ~",
+                "sentence": "Mary has a good command of French.",
+                "sentence_blank": "Mary ___ _ ____ _______ __ French.",
+                "correct": "has a good command of",
+                "correct_jp": "メアリーはフランス語を使いこなせる（堪能である）。",
+                "definitions": ["〜を使いこなせる；〜（言語など）に堪能である"]
+            },
+            {
+                "id": "1b2c3d4e-5f6a-4b7c-8d9e-0f1a2b3c4d5e",
+                "expression": "be preferable to ~",
+                "sentence": "Your plan is far preferable to mine.",
+                "sentence_blank": "Your plan is far __________ __ mine.",
+                "correct": "preferable to",
+                "correct_jp": "あなたの計画のほうが私のものよりもはるかに好ましい（より望ましい）。",
+                "definitions": ["〜より好ましい"]
+            },
+            {
+                "id": "e5f6a7b8-c9d0-4e1f-2a3b-4c5d6e7f8a9b",
+                "expression": "be acquainted with ~",
+                "sentence": "Mike is acquainted with the mayor.",
+                "sentence_blank": "Mike __ __________ ____ the mayor.",
+                "correct": "is acquainted with",
+                "correct_jp": "マイクは市長を熟知している（知り合いである）。",
+                "definitions": ["〜を熟知して；〜と知り合いで"]
+            },
+            {
+                "id": "9a0b1c2d-3e4f-4a5b-6c7d-8e9f0a1b2c3d",
+                "expression": "look up ~ (in the dictionary)",
+                "sentence": "If you don't know about SDGs, please look it up.",
+                "sentence_blank": "If you don't know about SDGs, please ____ it __.",
+                "correct": "look up",
+                "correct_jp": "もし「SDGs」について知らないなら、調べてみてください。",
+                "definitions": ["〜を（辞書で）調べる"]
+            },
+            {
+                "id": "4d5e6f7a-8b9c-4d0e-1f2a-3b4c5d6e7f8a",
+                "expression": "keep at ~",
+                "sentence": "He kept at practicing the piano.",
+                "sentence_blank": "He ____ __ practicing the piano.",
+                "correct": "kept at",
+                "correct_jp": "彼はピアノの練習を根気よく続けた。",
+                "definitions": ["〜を根気よく続ける"]
+            },
+            {
+                "id": "bc7d8e9f-0a1b-4c2d-3e4f-5a6b7c8d9e0f",
+                "expression": "make progress (in ~)",
+                "sentence": "The student has made little progress in French.",
+                "sentence_blank": "The student has ____ little ________ __ French.",
+                "correct": "made progress in",
+                "correct_jp": "その生徒はフランス語においてはほとんど進歩していない。",
+                "definitions": ["（〜において）進歩する［進む］"]
+            },
+            {
+                "id": "0a1b2c3d-4e5f-4a6b-7c8d-9e0f1a2b3c4d",
+                "expression": "those who ...",
+                "sentence": "Those who did not complete the homework missed the test.",
+                "sentence_blank": "_____ ___ did not complete the homework missed the test.",
+                "correct": "Those who",
+                "correct_jp": "宿題を完了しなかった人々はそのテストを受け損ねた。",
+                "definitions": ["…する人々"]
+            },
+            {
+                "id": "5e6f7a8b-9c0d-4e1f-2a3b-4c5d6e7f8a9b",
+                "expression": "not less than ~",
+                "sentence": "He has not less than 50 dollars.",
+                "sentence_blank": "He has ___ ____ ____ 50 dollars.",
+                "correct": "not less than",
+                "correct_jp": "彼は少なくとも50ドルは持っている。",
+                "definitions": ["少なくとも〜"]
+            },
+            {
+                "id": "1c2d3e4f-5a6b-4c7d-8e9f-0a1b2c3d4e5f",
+                "expression": "it is said that ...",
+                "sentence": "It is said that she was a lawyer.",
+                "sentence_blank": "__ __ ____ ____ she was a lawyer.",
+                "correct": "It is said that",
+                "correct_jp": "彼女は弁護士だったと言われている。",
+                "definitions": ["…と言われている"]
+            },
+            {
+                "id": "6a7b8c9d-0e1f-4a2b-3c4d-5e6f7a8b9c0d",
+                "expression": "now (that) ...",
+                "sentence": "Now that the rain has stopped, let's begin the game.",
+                "sentence_blank": "___ ____ the rain has stopped, let's begin the game.",
+                "correct": "Now that",
+                "correct_jp": "今や雨が上がったので、試合を始めよう。",
+                "definitions": ["今や…なので；…であるからには"]
+            }
+        ]
     }
 ]

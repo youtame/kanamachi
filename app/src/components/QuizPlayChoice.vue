@@ -1,7 +1,6 @@
 <!-- components/QuizPlayChoice.vue -->
 <template>
     <div class="choice-mode-wrapper">
-        <!-- 問題文カード -->
         <v-card
             class="question-card glass-card border-0 my-3 my-sm-6"
             variant="flat"
@@ -13,7 +12,6 @@
             </div>
         </v-card>
 
-        <!-- 選択肢グリッド -->
         <v-row class="choices-grid" justify="center">
             <v-col
                 v-for="(choice, index) in quizStore.currentQuestion?.choices"
@@ -43,7 +41,6 @@
             </v-col>
         </v-row>
 
-        <!-- アクションエリア（次へボタン） -->
         <div class="action-area">
             <v-slide-y-transition>
                 <v-btn
@@ -133,7 +130,6 @@ function getChoiceClass(choice: string) {
     }
 }
 
-// A, B, C, Dのブランド・配色デザイン
 .choice-type-a {
     background-color: rgba(var(--v-theme-primary), 0.06) !important;
     border: 1px solid rgba(var(--v-theme-primary), 0.15);
@@ -163,7 +159,6 @@ function getChoiceClass(choice: string) {
     }
 }
 
-// 正誤判定時のスタイル
 .choice-correct {
     background-color: #2e7d32 !important;
     border-color: #2e7d32 !important;

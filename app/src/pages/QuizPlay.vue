@@ -1,4 +1,3 @@
-<!-- pages/QuizPlay.vue -->
 <template>
     <v-container fluid class="quiz-container d-flex align-center px-4 px-sm-6">
         <v-progress-linear
@@ -123,6 +122,7 @@ import { mdiRefresh, mdiArrowLeft } from "@mdi/js";
 // import mode components
 import QuizPlayChoice from "../components/QuizPlayChoice.vue";
 import QuizPlayFlashcard from "../components/QuizPlayFlashcard.vue";
+import QuizPlayInput from "../components/QuizPlayInput.vue";
 
 const route = useRoute();
 const quizStore = useQuizStore();
@@ -138,6 +138,9 @@ const mode = computed(() => (route.query.mode as string) || "choice");
 const currentModeComponent = computed(() => {
     if (mode.value === "flashcard") {
         return QuizPlayFlashcard;
+    }
+    if (mode.value === "input") {
+        return QuizPlayInput;
     }
     return QuizPlayChoice;
 });
@@ -156,7 +159,11 @@ onMounted(async () => {
 });
 
 function startSession() {
-    if (rawQuizData.value) {
+    if (!rawQuizData.value) return;
+
+    if (mode.value === "input") {
+        quizStore.initInputQuiz(rawQuizData.value, chapter.value, limit.value);
+    } else {
         quizStore.initQuiz(rawQuizData.value, chapter.value, limit.value);
     }
 }
