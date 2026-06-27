@@ -117,7 +117,10 @@ const selectedLimit = ref<number>(10);
 const chapterOptions = ref<{ label: string; value: number }[]>([]);
 const isLoading = ref<boolean>(false);
 
-const modeOptions = [{ label: "Choice", value: "choice" }];
+const modeOptions = [
+    { label: "FlashCard", value: "flashcard" },
+    { label: "Choice", value: "choice" },
+];
 
 const limitOptions = [
     { label: "5 Questions", value: 5 },
