@@ -1,6 +1,7 @@
 <!-- components/QuizPlayFlashcard.vue -->
 <template>
-    <div class="flashcard-mode-wrapper">
+    <!-- flashcard-section -->
+    <div class="flashcard-section">
         <div class="flashcard-container my-4 my-sm-8">
             <div
                 class="flashcard"
@@ -42,7 +43,7 @@
                         <div
                             class="hint-text text-medium-emphasis font-weight-bold mt-auto pt-6"
                         >
-                            Press to back the Question.
+                            Press to back the Question
                         </div>
                     </div>
                 </v-card>
@@ -112,6 +113,7 @@ import { ref, watch } from "vue";
 import { useQuizStore } from "../stores/QuizStore";
 import { mdiArrowRight, mdiCheckCircle, mdiCloseCircle } from "@mdi/js";
 
+// Pinia settings
 const quizStore = useQuizStore();
 
 const isFlipped = ref(false);
@@ -132,7 +134,15 @@ function handleAnswer(isCorrect: boolean) {
 }
 
 function handleNext() {
-    quizStore.nextQuestion();
+    if (isFlipped.value) {
+        isFlipped.value = false;
+
+        setTimeout(() => {
+            quizStore.nextQuestion();
+        }, 600);
+    } else {
+        quizStore.nextQuestion();
+    }
 }
 
 watch(

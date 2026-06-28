@@ -1,3 +1,4 @@
+<!-- components/QuizPlayInput.vue -->
 <template>
     <div class="input-mode-wrapper">
         <v-card
@@ -55,7 +56,7 @@
                 class="action-btn font-weight-bold"
                 :disabled="!userInput.trim()"
                 @click="submitAnswer"
-                :append-icon="mdiAlertCircleOutline"
+                :append-icon="mdiCheck"
             >
                 Check Answer
             </v-btn>
@@ -95,7 +96,6 @@ import {
     mdiPencilOutline,
     mdiCheck,
     mdiClose,
-    mdiAlertCircleOutline,
 } from "@mdi/js";
 
 const quizStore = useQuizStore();
