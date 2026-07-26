@@ -4,26 +4,23 @@ content:
       type: collection
       path: app/public/quiz
       format: json
+      list: true
       fields:
-          - type: object
-            name: Chapters
-            label: Chapter info
+          - name: chapter
+            label: Chapter number
+            type: number
+          - name: vocabulary
+            label: Vocabulary
+            type: object
+            list: true
             fields:
-                - name: chapter
-                  label: Chapter (Number)
-                  type: number
-
-                - name: vocabulary
-                  label: Quiz List
-                  type: object
-                  fields:
-                      - name: id
-                        label: UUID
-                        type: string
-                      - name: expression
-                        label: Question
-                        type: string
-
-                      - name: definitions
-                        label: Answer
-                        type: text
+                - name: id
+                  label: UUID
+                  type: string
+                - name: expression
+                  label: Expression
+                  type: string
+                - name: definitions
+                  label: Definitions
+                  type: string
+                  list: true
