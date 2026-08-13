@@ -223,7 +223,7 @@ watch(
 
 .choice-btn {
     border-radius: 12px;
-    height: 54px !important;
+    height: 48px !important;
     font-size: 15px;
 }
 

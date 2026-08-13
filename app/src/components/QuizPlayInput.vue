@@ -101,6 +101,8 @@ import {
 const quizStore = useQuizStore();
 const userInput = ref("");
 
+console.log(quizStore.currentQuestion.sentenceBlank);
+
 watch(
     () => quizStore.currentIndex,
     () => {

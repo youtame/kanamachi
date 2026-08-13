@@ -146,9 +146,13 @@ watch(
 
             const data = await response.json();
 
-            if (Array.isArray(data)) {
+            const chaptersArray = data.chapters;
+
+            if (Array.isArray(chaptersArray)) {
                 const chapters = Array.from(
-                    new Set(data.map((item: any) => Number(item.chapter))),
+                    new Set(
+                        chaptersArray.map((item: any) => Number(item.chapter)),
+                    ),
                 ).sort((a, b) => a - b);
 
                 chapterOptions.value = chapters.map((ch) => ({

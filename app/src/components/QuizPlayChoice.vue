@@ -196,7 +196,7 @@ function getChoiceClass(choice: string) {
         padding: 12px !important;
     }
     .choice-btn {
-        height: 76px !important;
+        height: 64px !important;
         justify-content: center !important;
         .choice-text {
             width: 100%;

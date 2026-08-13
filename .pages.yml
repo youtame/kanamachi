@@ -4,23 +4,47 @@ content:
       type: collection
       path: app/public/quiz
       format: json
-      list: true
+      filename: "{primary}.json"
+      view:
+          fields:
+              - title
+              - primary
       fields:
-          - name: chapter
-            label: Chapter number
-            type: number
-          - name: vocabulary
-            label: Vocabulary
+          - name: title
+            label: Quiz Title
+            type: string
+          - name: chapters
+            label: Chapters
             type: object
             list: true
             fields:
-                - name: id
-                  label: UUID
-                  type: string
-                - name: expression
-                  label: Expression
-                  type: string
-                - name: definitions
-                  label: Definitions
-                  type: string
+                - name: chapter
+                  label: Chapter number
+                  type: number
+                - name: vocabulary
+                  label: Vocabulary
+                  type: object
                   list: true
+                  fields:
+                      - name: id
+                        label: UUID
+                        type: string
+                      - name: expression
+                        label: Expression
+                        type: string
+                      - name: sentence
+                        label: Sentence
+                        type: string
+                      - name: sentence_blank
+                        label: Sentence Blank
+                        type: string
+                      - name: correct
+                        label: Correct
+                        type: string
+                      - name: correct_jp
+                        label: Correct (JP)
+                        type: string
+                      - name: definitions
+                        label: Definitions
+                        type: string
+                        list: true
