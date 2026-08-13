@@ -8,6 +8,7 @@ content:
           - name: chapters
             label: Chapters
             type: object
+            list: true
             fields:
                 - name: chapter
                   label: Chapter number
@@ -15,6 +16,7 @@ content:
                 - name: vocabulary
                   label: Vocabulary
                   type: object
+                  list: true
                   fields:
                       - name: id
                         label: UUID
@@ -35,5 +37,6 @@ content:
                         label: Correct (JP)
                         type: string
                       - name: definitions
-                        label: Definitions (comma separated or text)
-                        type: text
+                        label: Definitions
+                        type: string
+                        list: true
