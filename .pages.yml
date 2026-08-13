@@ -7,14 +7,14 @@ content:
       fields:
           - name: chapters
             label: Chapters
-            type: list
+            type: object
             fields:
                 - name: chapter
                   label: Chapter number
                   type: number
                 - name: vocabulary
                   label: Vocabulary
-                  type: list
+                  type: object
                   fields:
                       - name: id
                         label: UUID
@@ -35,5 +35,5 @@ content:
                         label: Correct (JP)
                         type: string
                       - name: definitions
-                        label: Definitions
-                        type: list
+                        label: Definitions (comma separated or text)
+                        type: text
