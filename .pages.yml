@@ -5,6 +5,9 @@ content:
       path: app/public/quiz
       format: json
       filename: "{primary}.json"
+      view:
+          fields:
+              - primary
       fields:
           - name: chapters
             label: Chapters
