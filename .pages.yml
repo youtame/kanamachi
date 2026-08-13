@@ -15,7 +15,7 @@ content:
             label: Quiz Title
             type: string
           - name: category
-            label: Category (textbook or extra)
+            label: Category
             type: string
           - name: subject
             label: Subject
