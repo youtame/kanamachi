@@ -1,0 +1,20 @@
+{
+    "title": "Trivia Easy",
+    "category": "extra",
+    "subject": "Trivia",
+    "icon": "mdiMessageBulleted",
+    "color": "deep-orange-darken-3",
+    "comingSoon": true,
+    "chapters": [
+        {
+            "chapter": 1,
+            "vocabulary": [
+                {
+                    "id": "4EB54ACC-8D45-44E9-B7BB-7AA33FA87D10",
+                    "expression": "hogehoge",
+                    "definitions": ["hogehoge", "hogehoge"]
+                }
+            ]
+        }
+    ]
+}

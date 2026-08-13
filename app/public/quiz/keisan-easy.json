@@ -1,5 +1,10 @@
 {
     "title": "Keisan Easy",
+    "category": "textbook",
+    "subject": "Math",
+    "icon": "mdiCalculatorVariant",
+    "color": "indigo-darken-3",
+    "comingSoon": false,
     "chapters": [
         {
             "chapter": 1,

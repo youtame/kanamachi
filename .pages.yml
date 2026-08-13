@@ -8,11 +8,27 @@ content:
       view:
           fields:
               - title
+              - category
               - primary
       fields:
           - name: title
             label: Quiz Title
             type: string
+          - name: category
+            label: Category (textbook or extra)
+            type: string
+          - name: subject
+            label: Subject
+            type: string
+          - name: icon
+            label: MDI Icon Name (e.g. mdiBeaker)
+            type: string
+          - name: color
+            label: Color (e.g. green-darken-3)
+            type: string
+          - name: comingSoon
+            label: Coming Soon
+            type: boolean
           - name: chapters
             label: Chapters
             type: object

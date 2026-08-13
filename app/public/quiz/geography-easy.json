@@ -1,5 +1,10 @@
 {
     "title": "Geography Easy",
+    "category": "textbook",
+    "subject": "SocialStudy Geography",
+    "icon": "mdiMap",
+    "color": "amber-darken-3",
+    "comingSoon": false,
     "chapters": [
         {
             "chapter": 1,

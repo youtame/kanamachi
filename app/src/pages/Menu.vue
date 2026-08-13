@@ -131,6 +131,64 @@ import {
 } from "@mdi/js";
 import type { IconValue } from "vuetify";
 
+// --- Icon Mapping Helper ---
+const iconMap: Record<string, IconValue> = {
+    mdiTranslate,
+    mdiTrain,
+    mdiBeaker,
+    mdiAccountMultiple,
+    mdiAbTesting,
+    mdiCalculatorVariant,
+    mdiLaptop,
+    mdiMessageBulleted,
+    mdiMap,
+};
+
+// --- Type Definition ---
+interface ButtonItem {
+    title: string;
+    subject: string;
+    icon: IconValue;
+    link: string;
+    color?: string;
+    comingSoon?: boolean;
+}
+
+// --- Dynamic JSON Loading via Vite import.meta.glob ---
+const quizModules = import.meta.glob<{
+    title: string;
+    category?: string;
+    subject: string;
+    icon: string;
+    color?: string;
+    comingSoon?: boolean;
+}>("../../public/quiz/*.json", { eager: true });
+
+// console.log("Loaded quizModules:", quizModules);
+
+const textbookContents = ref<ButtonItem[]>([]);
+const extraContents = ref<ButtonItem[]>([]);
+
+for (const path in quizModules) {
+    const mod = quizModules[path];
+    const fileName = path.split("/").pop()?.replace(".json", "") || "";
+
+    const item: ButtonItem = {
+        title: mod.title,
+        subject: mod.subject,
+        icon: iconMap[mod.icon] || mdiBeaker,
+        link: `/setup/${fileName}`,
+        color: mod.color || "primary",
+        comingSoon: mod.comingSoon || false,
+    };
+
+    if (mod.category === "extra") {
+        extraContents.value.push(item);
+    } else {
+        textbookContents.value.push(item);
+    }
+}
+
 // --- Textbook Search States ---
 const searchQuery = ref("");
 const isSearchOpen = ref(false);
@@ -154,7 +212,7 @@ const clearSearch = () => {
 };
 
 const filteredTextbookContents = computed(() => {
-    if (!searchQuery.value) return textbookContents.value; // 未入力なら全件表示
+    if (!searchQuery.value) return textbookContents.value;
     return textbookContents.value.filter(
         (item) =>
             item.title
@@ -166,87 +224,6 @@ const filteredTextbookContents = computed(() => {
     );
 });
 // --- end: Utility Search States ---
-
-// Type Definition
-interface ButtonItem {
-    title: string;
-    subject: string;
-    icon: IconValue;
-    link: string;
-    color?: string;
-    comingSoon?: boolean;
-}
-
-// Contents Links for MainLinkCard
-const textbookContents = ref<ButtonItem[]>([
-    {
-        title: "Elements Easy",
-        subject: "Science Chemistry",
-        icon: mdiBeaker,
-        link: "/setup/elements-easy",
-        color: "green-darken-3",
-    },
-    {
-        title: "Fast Read Eitango",
-        subject: "English",
-        icon: mdiAbTesting,
-        link: "/setup/fast-read-eitango",
-        color: "purple-darken-3",
-    },
-    {
-        title: "Geography Easy",
-        subject: "SocialStudy Geography",
-        icon: mdiMap,
-        link: "/setup/geography-easy",
-        color: "amber-darken-3",
-    },
-    {
-        title: "Kotowaza Easy",
-        subject: "Japanese Kokugo",
-        icon: mdiTranslate,
-        link: "/setup/kotowaza-easy",
-        color: "red-darken-3",
-    },
-    {
-        title: "Keisan Easy",
-        subject: "Math",
-        icon: mdiCalculatorVariant,
-        link: "/setup/keisan-easy",
-        color: "indigo-darken-3",
-    },
-    {
-        title: "Technology Easy",
-        subject: "Technology",
-        icon: mdiLaptop,
-        link: "/setup/technology-easy",
-        color: "light-blue-darken-3",
-    },
-]);
-
-const extraContents = ref<ButtonItem[]>([
-    {
-        title: "Tetsudo Quiz Easy",
-        subject: "Tekken2026",
-        icon: mdiTrain,
-        link: "/setup/tetsudo-quiz-easy",
-        color: "orange-darken-3",
-    },
-    {
-        title: "Genius Quiz",
-        subject: "102do",
-        icon: mdiAccountMultiple,
-        link: "/setup/genius-quiz",
-        color: "lime-darken-3",
-    },
-    {
-        title: "Trivia Easy",
-        subject: "Trivia",
-        icon: mdiMessageBulleted,
-        link: "/setup/trivia-easy",
-        color: "deep-orange-darken-3",
-        comingSoon: true,
-    },
-]);
 </script>
 
 <style lang="scss" scoped>
