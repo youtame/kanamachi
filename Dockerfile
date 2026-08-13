@@ -1,10 +1,13 @@
 FROM node:24-alpine
 
-# COPY app/package*.json ./
+WORKDIR /app
 
-# RUN npm install
+COPY app/package*.json ./
+
+RUN npm install
+
+COPY app/ .
 
 EXPOSE 5173
 
-# CMD ["npm", "run", "dev", "--", "--host", "0.0.0.0"]
-CMD ["sh"]
+CMD ["npm", "run", "dev", "--", "--host", "0.0.0.0"]

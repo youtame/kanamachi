@@ -245,7 +245,7 @@ function getFeedbackMessage(score: number, total: number) {
         padding: 12px !important;
     }
     .choice-btn {
-        height: 76px !important;
+        height: 64px !important;
         justify-content: center !important;
     }
 }

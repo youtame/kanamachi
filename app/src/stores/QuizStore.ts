@@ -52,11 +52,11 @@ export const useQuizStore = defineStore("quiz", () => {
     }
 
     function initQuiz(
-        rawData: ChapterData[],
+        rawData: { chapters: ChapterData[] },
         targetChapter: number,
         limit: number,
     ) {
-        const targetData = rawData.find(
+        const targetData = rawData.chapters?.find(
             (c) => Number(c.chapter) === targetChapter,
         );
         if (!targetData || !targetData.vocabulary.length) {
@@ -87,11 +87,11 @@ export const useQuizStore = defineStore("quiz", () => {
     }
 
     function initInputQuiz(
-        rawData: ChapterData[],
+        rawData: { chapters: ChapterData[] },
         targetChapter: number,
         limit: number,
     ) {
-        const targetData = rawData.find(
+        const targetData = rawData.chapters?.find(
             (c) => Number(c.chapter) === targetChapter,
         );
         if (!targetData || !targetData.vocabulary.length) {
