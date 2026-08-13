@@ -7,8 +7,12 @@ content:
       filename: "{primary}.json"
       view:
           fields:
+              - title
               - primary
       fields:
+          - name: title
+            label: Quiz Title
+            type: string
           - name: chapters
             label: Chapters
             type: object
