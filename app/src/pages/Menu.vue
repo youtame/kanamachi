@@ -1,7 +1,9 @@
 <!-- pages/Menu.vue -->
 <template>
     <v-container fluid>
-        <h1 class="main-title">Menu</h1>
+        <h1 class="main-title easter-egg-title" @click="handleTitleClick">
+            Menu
+        </h1>
 
         <!-- Textbook section-->
         <div class="textbook-section mb-10">
@@ -109,6 +111,29 @@
                 </v-col>
             </v-row>
         </div>
+
+        <v-dialog v-model="isEasterEggOpen" max-width="400">
+            <v-card class="pa-6 text-center glass-card bg-surface">
+                <v-card-title class="text-h5 font-weight-bold mb-2">
+                    UUID v4
+                </v-card-title>
+                <v-card-text
+                    class="text-body-1 text-primary font-weight-mono py-4 text-break"
+                >
+                    {{ generatedUuid }}
+                </v-card-text>
+                <v-card-actions class="justify-center">
+                    <v-btn
+                        color="primary"
+                        variant="flat"
+                        block
+                        @click="isEasterEggOpen = false"
+                    >
+                        Close
+                    </v-btn>
+                </v-card-actions>
+            </v-card>
+        </v-dialog>
     </v-container>
 </template>
 
@@ -224,6 +249,39 @@ const filteredTextbookContents = computed(() => {
     );
 });
 // --- end: Utility Search States ---
+
+const isEasterEggOpen = ref<boolean>(false);
+const generatedUuid = ref<string>("");
+let clickCount = 0;
+let clickTimer: NodeJS.Timeout | null = null;
+
+function handleTitleClick() {
+    clickCount++;
+
+    if (clickTimer) clearTimeout(clickTimer);
+
+    if (clickCount >= 3) {
+        try {
+            const uuid =
+                typeof crypto !== "undefined" && crypto.randomUUID
+                    ? crypto.randomUUID()
+                    : "xxxx-xxxx-4xxx-yxxx".replace(/[xy]/g, (c) => {
+                          const r = (Math.random() * 16) | 0;
+                          return (c === "x" ? r : (r & 0x3) | 0x8).toString(16);
+                      });
+
+            generatedUuid.value = uuid;
+            isEasterEggOpen.value = true;
+        } catch (e) {
+            console.error(e);
+        }
+        clickCount = 0;
+    } else {
+        clickTimer = setTimeout(() => {
+            clickCount = 0;
+        }, 600);
+    }
+}
 </script>
 
 <style lang="scss" scoped>
@@ -260,5 +318,12 @@ const filteredTextbookContents = computed(() => {
     opacity: 0.5;
     pointer-events: none;
     filter: grayscale(30%);
+}
+
+.easter-egg-title {
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    display: inline-block;
 }
 </style>

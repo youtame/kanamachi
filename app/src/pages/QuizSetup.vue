@@ -1,4 +1,4 @@
-<!-- pages/QuizSeup.vue -->
+<!-- pages/QuizSetup.vue -->
 <template>
     <v-container fluid class="bg-background">
         <tomenu />
@@ -53,18 +53,25 @@
                         flat
                     ></v-select>
 
-                    <v-select
-                        v-model="selectedLimit"
-                        :items="limitOptions"
-                        item-title="label"
-                        item-value="value"
-                        label="Number of Questions..."
-                        :prepend-inner-icon="mdiFormatListNumbered"
-                        variant="filled"
-                        class="mb-6"
-                        color="primary"
-                        flat
-                    ></v-select>
+                    <div class="mb-6 px-2">
+                        <div class="text-caption text-medium-emphasis mb-1">
+                            Number of Questions:
+                            {{
+                                selectedLimit === maxQuestions
+                                    ? `All Questions (${maxQuestions})`
+                                    : `${selectedLimit} Questions`
+                            }}
+                        </div>
+                        <v-slider
+                            v-model="selectedLimit"
+                            :min="5"
+                            :max="maxQuestions"
+                            :step="1"
+                            thumb-label
+                            color="primary"
+                            hide-details
+                        ></v-slider>
+                    </div>
 
                     <v-btn
                         type="submit"
@@ -102,17 +109,12 @@ const router = useRouter();
 
 const textbookId = computed(() => (route.params.textname as string) || "");
 
-const textbookName = computed(() => {
-    if (!textbookId.value) return "Textbook";
-    return textbookId.value
-        .split("-")
-        .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-        .join(" ");
-});
+const textbookName = ref<string>("Loading...");
 
 const selectedChapter = ref<number | null>(null);
 const selectedMode = ref<string>("flashcard");
 const selectedLimit = ref<number>(10);
+const quizData = ref<any>(null);
 
 const chapterOptions = ref<{ label: string; value: number }[]>([]);
 const isLoading = ref<boolean>(false);
@@ -123,29 +125,66 @@ const modeOptions = [
     { label: "Input", value: "input" },
 ];
 
-const limitOptions = [
-    { label: "5 Questions", value: 5 },
-    { label: "10 Questions", value: 10 },
-    { label: "15 Questions", value: 15 },
-    { label: "20 Questions", value: 20 },
-    { label: "All Questions", value: 1000 },
-];
+const maxQuestions = computed(() => {
+    if (!quizData.value || selectedChapter.value === null) return 20;
+
+    const chapterObj = quizData.value.chapters.find(
+        (ch: any) => Number(ch.chapter) === selectedChapter.value,
+    );
+
+    return chapterObj?.vocabulary?.length || 20;
+});
+
+const limitOptions = computed(() => {
+    if (!quizData.value || selectedChapter.value === null) {
+        return [{ label: "All Questions", value: 1000 }];
+    }
+
+    const chapterObj = quizData.value.chapters.find(
+        (ch: any) => Number(ch.chapter) === selectedChapter.value,
+    );
+
+    const totalQuestions = chapterObj?.vocabulary?.length || 0;
+
+    const options = [];
+    const steps = [5, 10, 15, 20];
+
+    for (const step of steps) {
+        if (step < totalQuestions) {
+            options.push({ label: `${step} Questions`, value: step });
+        }
+    }
+
+    options.push({
+        label: `All Questions (${totalQuestions})`,
+        value: totalQuestions,
+    });
+
+    return options;
+});
+
+watch(selectedChapter, () => {
+    selectedLimit.value = maxQuestions.value;
+});
 
 watch(
     textbookId,
     async (newId) => {
         if (!newId) {
             chapterOptions.value = [];
+            textbookName.value = "Textbook";
             return;
         }
 
         isLoading.value = true;
         try {
             const response = await fetch(`/quiz/${newId}.json`);
+
             if (!response.ok) throw new Error("Network response was not ok");
 
             const data = await response.json();
-
+            quizData.value = data;
+            textbookName.value = data.title || "Unknown Quiz";
             const chaptersArray = data.chapters;
 
             if (Array.isArray(chaptersArray)) {
@@ -167,6 +206,7 @@ watch(
         } catch (error) {
             console.error(`Failed to fetch JSON: ${newId}`, error);
             chapterOptions.value = [];
+            textbookName.value = "Error Loading Quiz";
         } finally {
             isLoading.value = false;
         }
@@ -187,7 +227,6 @@ function startQuiz() {
     });
 }
 </script>
-
 <style lang="scss" scoped>
 .main-title {
     font-size: clamp(32px, 5vw, 40px);
