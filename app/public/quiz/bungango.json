@@ -1,10 +1,10 @@
 {
-  "title": "Bungango",
+  "title": "GenBuntango",
   "category": "textbook",
   "subject": "Japanese Kokugo",
   "icon": "mdiTranslate",
   "color": "red-darken-3",
-  "comingSoon": true,
+  "comingSoon": false,
   "chapters": [
     {
       "chapter": 1,
@@ -77,6 +77,76 @@
           "expression": "多様",
           "definitions": [
             "さまざまに異なること。種類が多いさま。"
+          ]
+        },
+        {
+          "id": "a84118e5-fdae-4725-af4f-75e72778a58e",
+          "expression": "帰納",
+          "definitions": [
+            "個別の具体的な事実から一般的な法則を導き出すこと。"
+          ]
+        },
+        {
+          "id": "b3118532-c3c5-4c98-8aeb-473de2558400",
+          "expression": "演繹",
+          "definitions": [
+            "一般的な前提から個別の結論を引き出すこと。"
+          ]
+        },
+        {
+          "id": "12a8aeae-20cc-4143-b06b-3565ff189c8b",
+          "expression": "総合",
+          "definitions": [
+            "一つ一つのものをまとめ合わせて、全体をとらえること。"
+          ]
+        },
+        {
+          "id": "7d60959b-e8cd-4132-9e52-1abb4e5877b0",
+          "expression": "分析",
+          "definitions": [
+            "物事を細かな要素に分解して、部分を明らかにすること。"
+          ]
+        },
+        {
+          "id": "019e06e3-5be6-4fcb-b1d6-f1f3c26e3ce6",
+          "expression": "自然",
+          "definitions": [
+            "人の手があまり加わっていない、ありのままの状態。"
+          ]
+        },
+        {
+          "id": "6a6ed3f5-9740-4843-92c2-ae4ee737a61b",
+          "expression": "人為",
+          "definitions": [
+            "人の手を加えること。人のしわざ。"
+          ]
+        },
+        {
+          "id": "5460192c-18d2-4dff-9124-2b89deb5fa8a",
+          "expression": "身体",
+          "definitions": [
+            "人の体。肉体。"
+          ]
+        },
+        {
+          "id": "c043ba31-c826-4187-8335-8e883e6b1e99",
+          "expression": "精神",
+          "definitions": [
+            "心。物事に対する心のもち方や働き。根本の意義。"
+          ]
+        },
+        {
+          "id": "4ff9da49-4709-4420-a5dd-dec8a8c69a76",
+          "expression": "顕在",
+          "definitions": [
+            "はっきり形に現れて、存在すること。"
+          ]
+        },
+        {
+          "id": "32b6ebe3-c6f7-4621-959a-6b43876476fa",
+          "expression": "潜在",
+          "definitions": [
+            "内部に隠れていて、表面に現れずに存在すること。"
           ]
         }
       ]
