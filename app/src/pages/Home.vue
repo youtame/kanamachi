@@ -102,12 +102,13 @@
                         01. EASY MANAGEMENT
                     </div>
                     <h3 class="text-h4 font-weight-bold mb-4">
-                        No PC Required. Add Questions via GitHub
+                        No PC Required. Edit via Pages CMS or GitHub
                     </h3>
                     <p class="text-body-1 text-medium-emphasis leading-relaxed">
-                        Manage your quiz data effortlessly. Just edit the JSON
-                        file directly on GitHub—you can seamlessly add or update
-                        questions from your smartphone anytime, anywhere.
+                        Manage your quiz data effortlessly. Use Pages CMS for a
+                        clean visual interface, or edit files directly on
+                        GitHub—update questions from your smartphone anytime,
+                        anywhere.
                     </p>
                 </div>
                 <div class="step-image-wrapper">

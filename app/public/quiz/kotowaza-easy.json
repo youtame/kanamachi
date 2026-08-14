@@ -1,5 +1,10 @@
 {
     "title": "Kotowaza Easy",
+    "category": "textbook",
+    "subject": "Japanese Kokugo",
+    "icon": "mdiTranslate",
+    "color": "red-darken-3",
+    "comingSoon": false,
     "chapters": [
         {
             "chapter": 1,

@@ -1,5 +1,10 @@
 {
     "title": "Elements Easy",
+    "category": "textbook",
+    "subject": "Science Chemistry",
+    "icon": "mdiBeaker",
+    "color": "green-darken-3",
+    "comingSoon": false,
     "chapters": [
         {
             "chapter": 1,

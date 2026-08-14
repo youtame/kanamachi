@@ -21,7 +21,7 @@
                             v-if="headericon.icon"
                             :src="headericon.icon"
                             height="40"
-                            width="140"
+                            width="80"
                             alt="logo"
                             class="mr-2"
                         />
@@ -30,7 +30,7 @@
                     <v-spacer></v-spacer>
 
                     <v-btn
-                        v-if="isNotHomeMenu"
+                        v-if="isNotHome && isNotMenu"
                         icon
                         variant="text"
                         @click="$router.push('/menu')"
@@ -43,6 +43,20 @@
                     </v-btn>
 
                     <div class="d-none d-md-flex align-center">
+                        <v-btn
+                            v-if="isNotHome && isMenu"
+                            icon
+                            href="https://app.pagescms.org/youtame/kanamachi/main/"
+                            target="_blank"
+                            variant="text"
+                            class="mr-1"
+                        >
+                            <v-icon :icon="mdiPlus"></v-icon>
+                            <v-tooltip activator="parent" location="bottom"
+                                >Add Quiz</v-tooltip
+                            >
+                        </v-btn>
+
                         <v-btn icon @click="() => toggleTheme()" variant="text">
                             <v-icon
                                 :icon="
@@ -85,7 +99,7 @@
             >
                 <v-divider></v-divider>
                 <v-list nav>
-                    <v-list-item v-if="isNotHomeMenu" link to="/menu">
+                    <v-list-item v-if="isNotHome && isNotMenu" link to="/menu">
                         <template v-slot:prepend>
                             <v-icon :icon="mdiHome"></v-icon>
                         </template>
@@ -94,7 +108,10 @@
                         >
                     </v-list-item>
 
-                    <v-divider v-if="isNotHomeMenu" class="my-2"></v-divider>
+                    <v-divider
+                        v-if="isNotHome && isNotMenu"
+                        class="my-2"
+                    ></v-divider>
 
                     <v-list-item>
                         <template v-slot:prepend>
@@ -122,6 +139,25 @@
                                 density="compact"
                             ></v-switch>
                         </template>
+                    </v-list-item>
+
+                    <v-divider
+                        v-if="isNotHome && isMenu"
+                        class="my-2"
+                    ></v-divider>
+
+                    <v-list-item
+                        v-if="isNotHome && isMenu"
+                        link
+                        href="https://app.pagescms.org/youtame/kanamachi/main/"
+                        target="_blank"
+                    >
+                        <template v-slot:prepend>
+                            <v-icon :icon="mdiPlus"></v-icon>
+                        </template>
+                        <v-list-item-title class="font-weight-bold"
+                            >Add Quiz</v-list-item-title
+                        >
                     </v-list-item>
 
                     <v-divider class="my-2"></v-divider>
@@ -174,15 +210,26 @@ import {
     mdiWeatherNight,
     mdiHome,
     mdiGithub,
+    mdiPlus,
 } from "@mdi/js";
 
 import logo from "@/assets/logo.svg";
 
 const route = useRoute();
 
-const isNotHomeMenu = computed(() => {
+const isNotHome = computed(() => {
     const normalizedPath = route.path.replace(/^\/|\/$/g, "");
-    return !["menu", ""].includes(normalizedPath);
+    return ![""].includes(normalizedPath);
+});
+
+const isMenu = computed(() => {
+    const normalizedPath = route.path.replace(/^\/|\/$/g, "");
+    return ["menu"].includes(normalizedPath);
+});
+
+const isNotMenu = computed(() => {
+    const normalizedPath = route.path.replace(/^\/|\/$/g, "");
+    return !["menu"].includes(normalizedPath);
 });
 
 const drawer = ref(false);

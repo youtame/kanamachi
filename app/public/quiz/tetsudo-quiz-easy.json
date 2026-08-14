@@ -1,5 +1,10 @@
 {
     "title": "Tetsudo Quiz Easy",
+    "category": "extra",
+    "subject": "Tekken2026",
+    "icon": "mdiTrain",
+    "color": "orange-darken-3",
+    "comingSoon": false,
     "chapters": [
         {
             "chapter": 1,
