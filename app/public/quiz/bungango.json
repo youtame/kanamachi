@@ -1,0 +1,85 @@
+{
+  "title": "Bungango",
+  "category": "textbook",
+  "subject": "Japanese Kokugo",
+  "icon": "mdiTranslate",
+  "color": "red-darken-3",
+  "comingSoon": true,
+  "chapters": [
+    {
+      "chapter": 1,
+      "vocabulary": [
+        {
+          "id": "ebca7160-39b8-462d-855d-6d1562c4a876",
+          "expression": "具体",
+          "definitions": [
+            "人間の感覚でとらえられる形や内容を備えていること。"
+          ]
+        },
+        {
+          "id": "10877996-e16a-4fc2-bbf3-88186cc42848",
+          "expression": "抽象",
+          "definitions": [
+            "事物の性質、共通性に着目し、それを引き出してとらえること。"
+          ]
+        },
+        {
+          "id": "7a7c41de-0e05-4421-954f-e67ecf83030b",
+          "expression": "絶対",
+          "definitions": [
+            "他に比較できるもののないこと。他から影響や制限を受けないこと。"
+          ]
+        },
+        {
+          "id": "eb972a02-888c-459a-b228-909b37e9eb2f",
+          "expression": "相対",
+          "definitions": [
+            "他との関係において存在すること。向かい合うこと。"
+          ]
+        },
+        {
+          "id": "7b7ea867-c0ca-4543-9459-60589893d6f4",
+          "expression": "主観",
+          "definitions": [
+            "外界との出来事に対する自分の意識。自分だけの個人的な考え。"
+          ]
+        },
+        {
+          "id": "3f59ca13-9409-47fa-bf8d-47add677987a",
+          "expression": "客観",
+          "definitions": [
+            "認識や行動の対象となるもの。主観から独立して存在するもの。"
+          ]
+        },
+        {
+          "id": "f5de778d-2c6e-40b2-a74f-dbda6dbcaaa9",
+          "expression": "現象",
+          "definitions": [
+            "感覚によってとらえられるすべてのもの。表面だけに現れたもの。"
+          ]
+        },
+        {
+          "id": "5cd47ae1-cd3d-4e20-b611-9e7b1726631d",
+          "expression": "本質",
+          "definitions": [
+            "物事の根本的な性質や要素。存在するものの基底をなすもの。"
+          ]
+        },
+        {
+          "id": "f93fed31-46bb-4679-87c8-7188d8f0e739",
+          "expression": "画一",
+          "definitions": [
+            "形や性質などの違いがないこと。すべて同じようにそろえること。"
+          ]
+        },
+        {
+          "id": "066b8971-1f31-4894-a99c-d0116302cb86",
+          "expression": "多様",
+          "definitions": [
+            "さまざまに異なること。種類が多いさま。"
+          ]
+        }
+      ]
+    }
+  ]
+}
