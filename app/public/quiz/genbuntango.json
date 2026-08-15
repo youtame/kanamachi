@@ -148,6 +148,146 @@
           "definitions": [
             "内部に隠れていて、表面に現れずに存在すること。"
           ]
+        },
+        {
+          "id": "88aef00b-4d45-4707-81fd-863ce33d3afe",
+          "expression": "内包",
+          "definitions": [
+            "ある概念がもつ共通の性質。内部を包みもつこと。"
+          ]
+        },
+        {
+          "id": "293d66db-f84c-4972-bab5-ac32db21386c",
+          "expression": "外延",
+          "definitions": [
+            "ある概念が適用される最大の範囲。"
+          ]
+        },
+        {
+          "id": "4c619a9b-9ad3-4193-ad6f-4a14d3c70b8e",
+          "expression": "創造",
+          "definitions": [
+            "それまでなかったものを新しく作り出すこと。"
+          ]
+        },
+        {
+          "id": "5daf5f30-0beb-4d73-a403-468f3dd90ec3",
+          "expression": "模倣",
+          "definitions": [
+            "まねること。似せること。"
+          ]
+        },
+        {
+          "id": "031831df-6bb0-4c6e-a331-72fb6b6bad5d",
+          "expression": "ロゴス",
+          "definitions": [
+            "理性。理知。言語。論理。"
+          ]
+        },
+        {
+          "id": "e5d6923f-d4e6-417b-a517-ac3765a08989",
+          "expression": "パドス",
+          "definitions": [
+            "感情。情熱。情念。"
+          ]
+        },
+        {
+          "id": "be7dbe58-c378-4ea5-bb38-1e3587506d76",
+          "expression": "普遍",
+          "definitions": [
+            "例外なく全てに共通すること。広く行き渡ること。"
+          ]
+        },
+        {
+          "id": "f1bc0c78-fd41-46f3-a2e8-db462498f775",
+          "expression": "特殊",
+          "definitions": [
+            "他の普通のものとは異なること。"
+          ]
+        },
+        {
+          "id": "3ef421b7-2566-4e1e-8842-251ce19cdd80",
+          "expression": "形而上",
+          "definitions": [
+            "形を超越した、精神的なもの。"
+          ]
+        },
+        {
+          "id": "0e92882a-b6dd-43f8-9ed2-dc435e90828a",
+          "expression": "形而下",
+          "definitions": [
+            "時間や空間の中で形をとって現れるもの。"
+          ]
+        },
+        {
+          "id": "2666b3af-ed02-4912-abee-c2fd0856a077",
+          "expression": "秩序",
+          "definitions": [
+            "物事や社会を正しく保つための順番や決まり。"
+          ]
+        },
+        {
+          "id": "b98af023-9bf2-4e19-9b0b-358566842f3a",
+          "expression": "混沌",
+          "definitions": [
+            "物事が入り混じって、はっきりと区別がつかないさま。"
+          ]
+        },
+        {
+          "id": "96b6a06f-37ae-437e-b2f2-4c4c23922519",
+          "expression": "一元",
+          "definitions": [
+            "全ての物事の根源が一つであること。"
+          ]
+        },
+        {
+          "id": "492a09c2-a286-4c7a-b6e4-06bab0bc695f",
+          "expression": "多元",
+          "definitions": [
+            "互いに独立した、多くの原理や要素があること。"
+          ]
+        },
+        {
+          "id": "b9937b7a-fb3c-4f87-b308-4e7033e12e5f",
+          "expression": "現実",
+          "definitions": [
+            "実際に今、目の前に現れている事実や状態。"
+          ]
+        },
+        {
+          "id": "3402b086-40d4-44da-8eb2-0f9bf3106c20",
+          "expression": "理想",
+          "definitions": [
+            "最善の姿や状態として求めるもの。"
+          ]
+        },
+        {
+          "id": "5ae238e4-00b2-4fd9-8b02-23e4f556e3f4",
+          "expression": "建前",
+          "definitions": [
+            "表向きの方針や考え方。"
+          ]
+        },
+        {
+          "id": "42c7aa86-d0de-4716-be3e-680ae31f9c5a",
+          "expression": "本音",
+          "definitions": [
+            "本当の気持ち。本当の気持ちから出る言葉。"
+          ]
+        },
+        {
+          "id": "c9ff9f1a-95c1-4c7d-abeb-0cad9a179bf8",
+          "expression": "肯定",
+          "definitions": [
+            "物事をその通りであると認めること。存在や意義を認めること。"
+          ]
+        },
+        {
+          "id": "9f540355-aa28-43bb-a0cf-06d9ef494227",
+          "expression": "否定",
+          "definitions": [
+            "物事をそうではないと退けて、打ち消すこと。"
+          ]
         }
       ]
     }
