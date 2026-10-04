@@ -478,6 +478,523 @@
                     "definitions": ["今や…なので；…であるからには"]
                 }
             ]
+        },
+        {
+            "chapter": 54,
+            "vocabulary": [
+                {
+                    "id": "e3a812b4-5c91-4e78-a2d3-1f6e9b4a8c5d",
+                    "expression": "at best",
+                    "sentence": "His result in the exam was ordinary at best.",
+                    "sentence_blank": "His result in the exam was ordinary __ ____.",
+                    "correct": "at best",
+                    "correct_jp": "彼の試験結果は、よくても平凡といったところだった。",
+                    "definitions": ["よくても；せいぜい"]
+                },
+                {
+                    "id": "7b2d9a4e-1f8c-4a3b-8d6e-9c5f2a1b4e3d",
+                    "expression": "with ~ in mind",
+                    "sentence": "This garden was designed with children in mind.",
+                    "sentence_blank": "This garden was designed ____ children __ ____.",
+                    "correct": "with in mind",
+                    "correct_jp": "この庭園は子供たちのことを考慮して設計された。",
+                    "definitions": ["〜を考慮して"]
+                },
+                {
+                    "id": "4c9e1b2f-8a3d-4e5f-b6a7-2d8e1f3a5b4c",
+                    "expression": "get down to ~",
+                    "sentence": "Now, shall we get down to work?",
+                    "sentence_blank": "Now, shall we ___ ____ __ work?",
+                    "correct": "get down to",
+                    "correct_jp": "さて、本気で仕事に取り掛かるとしましょうか。",
+                    "definitions": ["〜をし始める；〜に本腰を入れて取り掛かる"]
+                },
+                {
+                    "id": "a1f5e2b8-3c4d-4a9e-8b6f-7d1a2c3e4b5d",
+                    "expression": "in the meantime",
+                    "sentence": "In the meantime, you can use my laptop.",
+                    "sentence_blank": "__ ___ ________, you can use my laptop.",
+                    "correct": "In the meantime",
+                    "correct_jp": "その間に（とりあえず）、私のノートパソコンを使ってください。",
+                    "definitions": ["その間に；とかくするうちに"]
+                },
+                {
+                    "id": "d8c2e1f4-7b9a-4c3d-8e5f-1a2b3c4d5e6f",
+                    "expression": "couldn't be better",
+                    "sentence": "\"How are you?\" \"Couldn't be better.\"",
+                    "sentence_blank": "\"How are you?\" \"________ __ ______.\"",
+                    "correct": "Couldn't be better",
+                    "correct_jp": "「元気？」「最高だよ。」",
+                    "definitions": ["（気分・調子が）最高だ"]
+                },
+                {
+                    "id": "3b4c5d6e-7f8a-4b9c-0d1e-2f3a4b5c6d7e",
+                    "expression": "if ever",
+                    "sentence": "She seldom, if ever, goes on a trip with them.",
+                    "sentence_blank": "She seldom, __ ____, goes on a trip with them.",
+                    "correct": "if ever",
+                    "correct_jp": "彼女は、彼らと旅行に行くことは（たとえ）あるとしても滅多にない。",
+                    "definitions": ["（たとえ）あるとしても…；もし…だとしたら"]
+                },
+                {
+                    "id": "8f1a2b3c-4d5e-4f6a-7b8c-9d0e1f2a3b4c",
+                    "expression": "A is to B what C is to D",
+                    "sentence": "Exercise is to the body what study is to the mind.",
+                    "sentence_blank": "Exercise __ to the body ____ study __ to the mind.",
+                    "correct": "is what is",
+                    "correct_jp": "運動と身体の関係は、勉強と精神の関係に等しい。",
+                    "definitions": ["AとBの関係はCとDの関係に等しい"]
+                },
+                {
+                    "id": "5e6f7a8b-9c0d-4e1f-2a3b-4c5d6e7f8a9b",
+                    "expression": "but for ~",
+                    "sentence": "But for your advice, I couldn't succeed.",
+                    "sentence_blank": "___ ___ your advice, I couldn't succeed.",
+                    "correct": "But for",
+                    "correct_jp": "あなたの助言がなかったら、成功は覚束ないだろう。",
+                    "definitions": [
+                        "〜を除いて（〜以外は）；〜がなければ［〜がなかったら］"
+                    ]
+                },
+                {
+                    "id": "2a3b4c5d-6e7f-4a8b-9c0d-1e2f3a4b5c6d",
+                    "expression": "not ... either",
+                    "sentence": "Jack can't drive a car, either.",
+                    "sentence_blank": "Jack can't drive a car, ______.",
+                    "correct": "either",
+                    "correct_jp": "ジャックも車の運転ができません。",
+                    "definitions": ["〜も（また）…ない"]
+                },
+                {
+                    "id": "9b8c7d6e-5f4a-3b2c-1d0e-f9a8b7c6d5e4",
+                    "expression": "where to do",
+                    "sentence": "Tell me where to study.",
+                    "sentence_blank": "Tell me _____ __ study.",
+                    "correct": "where to",
+                    "correct_jp": "どこで勉強すべきか教えてください。",
+                    "definitions": ["どこで（に）…すべきか"]
+                },
+                {
+                    "id": "1d2c3b4a-5e6f-7a8b-9c0d-e1f2a3b4c5d6",
+                    "expression": "動詞＋過去分詞",
+                    "sentence": "He sat surrounded by his children.",
+                    "sentence_blank": "He sat __________ by his children.",
+                    "correct": "surrounded",
+                    "correct_jp": "彼は子供たちに囲まれて座っていた。",
+                    "definitions": ["〜されて…する（主格補語としての過去分詞）"]
+                },
+                {
+                    "id": "4e5f6a7b-8c9d-0e1f-2a3b-4c5d6e7f8a9b",
+                    "expression": "upon [on] ＋名詞",
+                    "sentence": "I'll submit my report upon request.",
+                    "sentence_blank": "I'll submit my report ____ request.",
+                    "correct": "upon",
+                    "correct_jp": "要求があり次第（すぐに）、レポートを提出します。",
+                    "definitions": ["…すると（すぐ）"]
+                },
+                {
+                    "id": "8a9b0c1d-2e3f-4a5b-6c7d-8e9f0a1b2c3d",
+                    "expression": "will be ...ing",
+                    "sentence": "I will be staying in Kyoto tomorrow.",
+                    "sentence_blank": "I ____ __ _______ in Kyoto tomorrow.",
+                    "correct": "will be staying",
+                    "correct_jp": "明日私は京都に滞在しているでしょう。",
+                    "definitions": ["…しているだろう（未来進行形）"]
+                },
+                {
+                    "id": "3c4d5e6f-7a8b-9c0d-1e2f-3a4b5c6d7e8f",
+                    "expression": "hardly ~ when (before) ...",
+                    "sentence": "Hardly had he fallen asleep when his phone rang.",
+                    "sentence_blank": "______ had he fallen asleep ____ his phone rang.",
+                    "correct": "Hardly when",
+                    "correct_jp": "彼が寝落ちしたとたんに電話が鳴った。",
+                    "definitions": ["〜するとすぐ…する"]
+                },
+                {
+                    "id": "7f8a9b0c-1d2e-3f4a-5b6c-7d8e9f0a1b2c",
+                    "expression": "as [so] long as ...",
+                    "sentence": "As long as I live, I will never forget your help.",
+                    "sentence_blank": "__ ____ __ I live, I will never forget your help.",
+                    "correct": "As long as",
+                    "correct_jp": "生きている限り、ご恩を決して忘れません。",
+                    "definitions": ["…する限り；…さえあれば"]
+                }
+            ]
+        },
+        {
+            "chapter": 55,
+            "vocabulary": [
+                {
+                    "id": "c7a8b9c0-1d2e-4f3a-5b6c-7d8e9f0a1b2c",
+                    "expression": "for want [lack] of ~",
+                    "sentence": "They stopped the plan for want of money.",
+                    "sentence_blank": "They stopped the plan ___ ____ __ money.",
+                    "correct": "for want of",
+                    "correct_jp": "お金がなかったため、彼らは計画を中止した。",
+                    "definitions": ["〜の不足のため；〜がないので"]
+                },
+                {
+                    "id": "e4f5a6b7-8c9d-4e0f-1a2b-3c4d5e6f7a8b",
+                    "expression": "be apt to do",
+                    "sentence": "You are apt to be careless when tired.",
+                    "sentence_blank": "You ___ ___ __ be careless when tired.",
+                    "correct": "are apt to",
+                    "correct_jp": "疲れている時は不注意になりがちだ。",
+                    "definitions": ["…しがちだ、…する傾向にある"]
+                },
+                {
+                    "id": "2b3c4d5e-6f7a-4b8c-9d0e-1f2a3b4c5d6e",
+                    "expression": "go bankrupt",
+                    "sentence": "I'll go bankrupt if you keep asking me for money!",
+                    "sentence_blank": "I'll __ ________ if you keep asking me for money!",
+                    "correct": "go bankrupt",
+                    "correct_jp": "このまま僕にお金を要求し続けたら、僕は破産するよ！",
+                    "definitions": ["破産する"]
+                },
+                {
+                    "id": "01234567-89ab-4cde-f012-3456789abcde",
+                    "expression": "in the face of ~",
+                    "sentence": "He managed to succeed in the face of great difficulties.",
+                    "sentence_blank": "He managed to succeed __ ___ ____ __ great difficulties.",
+                    "correct": "in the face of",
+                    "correct_jp": "彼は大きな困難に直面しながらも何とか成功した。",
+                    "definitions": ["〜に直面して；〜にもかかわらず"]
+                },
+                {
+                    "id": "8f9a0b1c-2d3e-4f5a-6b7c-8d9e0f1a2b3c",
+                    "expression": "consist of ~",
+                    "sentence": "The team consists of seven members.",
+                    "sentence_blank": "The team ________ __ seven members.",
+                    "correct": "consists of",
+                    "correct_jp": "チームは7人のメンバーから成り立っている。",
+                    "definitions": ["〜から成る"]
+                },
+                {
+                    "id": "3d4e5f6a-7b8c-4d9e-0f1a-2b3c4d5e6f7a",
+                    "expression": "as follows",
+                    "sentence": "The main events today are as follows.",
+                    "sentence_blank": "The main events today are __ _______.",
+                    "correct": "as follows",
+                    "correct_jp": "今日のメインイベントは次の通りです。",
+                    "definitions": ["次の通り（で）"]
+                },
+                {
+                    "id": "1a2b3c4d-5e6f-4a7b-8c9d-0e1f2a3b4c5d",
+                    "expression": "make (both) ends meet",
+                    "sentence": "She is good at making ends meet.",
+                    "sentence_blank": "She is good at ______ ____ ____.",
+                    "correct": "making ends meet",
+                    "correct_jp": "彼女はやりくりが得意だ。",
+                    "definitions": ["収支を合わせる；やりくりする"]
+                },
+                {
+                    "id": "5e6f7a8b-9c0d-4e1f-2a3b-4c5d6e7f8a9b",
+                    "expression": "make allowances for ~",
+                    "sentence": "You must make allowances for his youth.",
+                    "sentence_blank": "You must ____ __________ ___ his youth.",
+                    "correct": "make allowances for",
+                    "correct_jp": "彼の若さを考慮に入れる必要がある。",
+                    "definitions": ["〜を考慮して大目に見る；〜を見込む"]
+                },
+                {
+                    "id": "9a0b1c2d-3e4f-4a5b-6c7d-8e9f0a1b2c3d",
+                    "expression": "apply for ~",
+                    "sentence": "He applied for the job.",
+                    "sentence_blank": "He _______ ___ the job.",
+                    "correct": "applied for",
+                    "correct_jp": "彼はその仕事に応募した。",
+                    "definitions": ["〜に申し込む；〜に応募する"]
+                },
+                {
+                    "id": "4d5e6f7a-8b9c-4d0e-1f2a-3b4c5d6e7f8a",
+                    "expression": "hope (wish) for ~",
+                    "sentence": "We are hoping for good weather on Sunday.",
+                    "sentence_blank": "We are ______ ___ good weather on Sunday.",
+                    "correct": "hoping for",
+                    "correct_jp": "日曜日は天気に恵まれることを期待しているよ。",
+                    "definitions": ["〜を望む"]
+                },
+                {
+                    "id": "bc7d8e9f-0a1b-4c2d-3e4f-5a6b7c8d9e0f",
+                    "expression": "only too ~",
+                    "sentence": "She knew this only too well.",
+                    "sentence_blank": "She knew this ____ ___ well.",
+                    "correct": "only too",
+                    "correct_jp": "彼女はこのことを本当によくわかっていた。",
+                    "definitions": ["とても…；残念ながら…"]
+                },
+                {
+                    "id": "0a1b2c3d-4e5f-4a6b-7c8d-9e0f1a2b3c4d",
+                    "expression": "in trouble",
+                    "sentence": "A true friend should help you when you're in trouble.",
+                    "sentence_blank": "A true friend should help you when you're __ _______.",
+                    "correct": "in trouble",
+                    "correct_jp": "本当の友達なら困っている時に助けてくれるはずだ。",
+                    "definitions": ["困った；窮地に陥った"]
+                },
+                {
+                    "id": "6a7b8c9d-0e1f-4a2b-3c4d-5e6f7a8b9c0d",
+                    "expression": "aim at ~",
+                    "sentence": "He is aiming at the directorship.",
+                    "sentence_blank": "He is ______ __ the directorship.",
+                    "correct": "aiming at",
+                    "correct_jp": "彼は重役の座をねらっている。",
+                    "definitions": ["〜を目指す；〜をねらう"]
+                },
+                {
+                    "id": "1c2d3e4f-5a6b-4c7d-8e9f-0a1b2c3d4e5f",
+                    "expression": "be busy ...ing [with ~]",
+                    "sentence": "Teachers are busy preparing for the new term.",
+                    "sentence_blank": "Teachers ___ ____ _________ for the new term.",
+                    "correct": "are busy preparing",
+                    "correct_jp": "先生方は新学期の準備で忙しい。",
+                    "definitions": ["…するのに［〜に］忙しい"]
+                },
+                {
+                    "id": "7f8a9b0c-1d2e-3f4a-5b6c-7d8e9f0a1b2c",
+                    "expression": "If only ...",
+                    "sentence": "If only I had a little more time.",
+                    "sentence_blank": "__ ____ I had a little more time.",
+                    "correct": "If only",
+                    "correct_jp": "もう少し時間がありさえすればよかったのに。",
+                    "definitions": ["…でありさえすればよい［よかった］のに"]
+                }
+            ]
+        },
+        {
+            "chapter": 56,
+            "vocabulary": [
+                {
+                    "id": "f8a9b0c1-2d3e-4f5a-6b7c-8d9e0f1a2b3c",
+                    "expression": "out of (one's) control",
+                    "sentence": "Things got out of control quickly.",
+                    "sentence_blank": "Things got ___ __ _______ quickly.",
+                    "correct": "out of control",
+                    "correct_jp": "事態は急速に収拾がつかなくなってしまった。",
+                    "definitions": ["制御できなくて"]
+                },
+                {
+                    "id": "3d4e5f6a-7b8c-4d9e-0f1a-2b3c4d5e6f7a",
+                    "expression": "in the air",
+                    "sentence": "There's a rumor in the air that they are moving.",
+                    "sentence_blank": "There's a rumor __ ___ ___ that they are moving.",
+                    "correct": "in the air",
+                    "correct_jp": "彼らが引っ越すという噂が広まっている。",
+                    "definitions": ["（噂などが）広まって；空中に"]
+                },
+                {
+                    "id": "1a2b3c4d-5e6f-4a7b-8c9d-0e1f2a3b4c5d",
+                    "expression": "coincide with ~",
+                    "sentence": "The man's appearance coincides with the witness's description.",
+                    "sentence_blank": "The man's appearance _________ ____ the witness's description.",
+                    "correct": "coincides with",
+                    "correct_jp": "その男の外見は、目撃者の描写と一致している。",
+                    "definitions": ["〜と同時に起こる；〜と一致する"]
+                },
+                {
+                    "id": "5e6f7a8b-9c0d-4e1f-2a3b-4c5d6e7f8a9b",
+                    "expression": "blame A for B",
+                    "sentence": "No one should be blamed for the accident.",
+                    "sentence_blank": "No one should be ______ ___ the accident.",
+                    "correct": "blamed for",
+                    "correct_jp": "その事件に関しては誰もしかられるべきではない（非難されるべきではない）。",
+                    "definitions": ["BをAのせいにする；BのことでAを非難する"]
+                },
+                {
+                    "id": "9a0b1c2d-3e4f-4a5b-6c7d-8e9f0a1b2c3d",
+                    "expression": "on duty",
+                    "sentence": "Our boss showed up suddenly when we were on duty.",
+                    "sentence_blank": "Our boss showed up suddenly when we were __ ____.",
+                    "correct": "on duty",
+                    "correct_jp": "所長は私たちの勤務中に突然現れた。",
+                    "definitions": ["勤務中で；当番で"]
+                },
+                {
+                    "id": "4d5e6f7a-8b9c-4d0e-1f2a-3b4c5d6e7f8a",
+                    "expression": "pass away",
+                    "sentence": "His grandfather passed away last night.",
+                    "sentence_blank": "His grandfather ______ ____ last night.",
+                    "correct": "passed away",
+                    "correct_jp": "彼のおじいさんが昨晩亡くなりました。",
+                    "definitions": ["亡くなる"]
+                },
+                {
+                    "id": "bc7d8e9f-0a1b-4c2d-3e4f-5a6b7c8d9e0f",
+                    "expression": "go out of one's way to do",
+                    "sentence": "Thank you for going out of your way to help me.",
+                    "sentence_blank": "Thank you for _____ ___ __ ____ ___ to help me.",
+                    "correct": "going out of your way",
+                    "correct_jp": "わざわざお手伝いいただきありがとうございました。",
+                    "definitions": ["わざわざ…する"]
+                },
+                {
+                    "id": "0a1b2c3d-4e5f-4a6b-7c8d-9e0f1a2b3c4d",
+                    "expression": "live on [upon] ~",
+                    "sentence": "From now on, I'll live on what I earn.",
+                    "sentence_blank": "From now on, I'll ____ __ what I earn.",
+                    "correct": "live on",
+                    "correct_jp": "これからは自分の稼ぎで生活していきます。",
+                    "definitions": ["〜で生計を立てる；〜に頼って生活する"]
+                },
+                {
+                    "id": "6a7b8c9d-0e1f-4a2b-3c4d-5e6f7a8b9c0d",
+                    "expression": "run into [across] ~",
+                    "sentence": "I ran into my teacher at the supermarket.",
+                    "sentence_blank": "I ___ ____ my teacher at the supermarket.",
+                    "correct": "ran into",
+                    "correct_jp": "スーパーで先生に偶然出会った。",
+                    "definitions": ["〜に偶然出会う"]
+                },
+                {
+                    "id": "1c2d3e4f-5a6b-4c7d-8e9f-0a1b2c3d4e5f",
+                    "expression": "go with ~",
+                    "sentence": "That shirt doesn't go with these pants.",
+                    "sentence_blank": "That shirt doesn't __ ____ these pants.",
+                    "correct": "go with",
+                    "correct_jp": "そのシャツはそのズボンと合っていないよ。",
+                    "definitions": ["〜と同調する；〜と調和する"]
+                },
+                {
+                    "id": "7f8a9b0c-1d2e-3f4a-5b6c-7d8e9f0a1b2c",
+                    "expression": "try to do",
+                    "sentence": "I tried to persuade my dad, but it didn't work.",
+                    "sentence_blank": "I _____ __ persuade my dad, but it didn't work.",
+                    "correct": "tried to",
+                    "correct_jp": "父を説得しようとしたが、うまくいかなかった。",
+                    "definitions": ["…しようとする；…しようと試みる"]
+                },
+                {
+                    "id": "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e",
+                    "expression": "in accordance with ~",
+                    "sentence": "In accordance with the rule, he paid the man 100 dollars.",
+                    "sentence_blank": "__ __________ ____ the rule, he paid the man 100 dollars.",
+                    "correct": "In accordance with",
+                    "correct_jp": "規則に従って、彼はその男に100ドル払った。",
+                    "definitions": ["〜に従って［合致して］；〜通りに"]
+                },
+                {
+                    "id": "d4e5f6a7-8b9c-4d0e-1f2a-3b4c5d6e7f8a",
+                    "expression": "~ of ...",
+                    "sentence": "There is no hope of his recovering from his illness.",
+                    "sentence_blank": "There is no hope __ his recovering from his illness.",
+                    "correct": "of",
+                    "correct_jp": "彼が病気から回復するという見込みはない。",
+                    "definitions": ["…という〜（同格のof）"]
+                },
+                {
+                    "id": "f6a7b8c9-0d1e-2f3a-4b5c-6d7e8f9a0b1c",
+                    "expression": "If it were not [had not been] for ~",
+                    "sentence": "If it were not for water, nothing could live.",
+                    "sentence_blank": "__ __ ____ ___ ___ water, nothing could live.",
+                    "correct": "If it were not for",
+                    "correct_jp": "もし水がなければ、何物も生きることができないだろう。",
+                    "definitions": ["もし〜がないなら［なかったら］"]
+                },
+                {
+                    "id": "a8b9c0d1-2e3f-4a5b-6c7d-8e9f0a1b2c3d",
+                    "expression": "forget to do",
+                    "sentence": "Don't forget to lock the door.",
+                    "sentence_blank": "Don't ______ __ lock the door.",
+                    "correct": "forget to",
+                    "correct_jp": "ドアのカギをかけ忘れないように。",
+                    "definitions": ["…することを忘れる"]
+                }
+            ]
+        },
+        {
+            "chapter": 57,
+            "vocabulary": [
+                {
+                    "id": "2c3d4e5f-6a7b-4c8d-9e0f-1a2b3c4d5e6f",
+                    "expression": "for the purpose of ~",
+                    "sentence": "We started this charity for the purpose of nature conservation.",
+                    "sentence_blank": "We started this charity ___ ___ _______ __ nature conservation.",
+                    "correct": "for the purpose of",
+                    "correct_jp": "私たちは自然保護を目的としてこの慈善事業を始めた。",
+                    "definitions": ["〜の目的で"]
+                },
+                {
+                    "id": "4e5f6a7b-8c9d-0e1f-2a3b-4c5d6e7f8a9b",
+                    "expression": "at intervals",
+                    "sentence": "It was raining hard, with thunder at intervals.",
+                    "sentence_blank": "It was raining hard, with thunder __ _________.",
+                    "correct": "at intervals",
+                    "correct_jp": "時折雷を伴う大雨が降っていた。",
+                    "definitions": ["間隔をおいて；時折"]
+                },
+                {
+                    "id": "6a7b8c9d-0e1f-4a2b-3c4d-5e6f7a8b9c0d",
+                    "expression": "keep on ...ing",
+                    "sentence": "My parents kept on talking.",
+                    "sentence_blank": "My parents ____ __ talking.",
+                    "correct": "kept on",
+                    "correct_jp": "私の両親は話し続けた。",
+                    "definitions": ["…し続ける"]
+                },
+                {
+                    "id": "8c9d0e1f-2a3b-4c5d-6e7f-8a9b0c1d2e3f",
+                    "expression": "as opposed to ~",
+                    "sentence": "Your opinion seems fact-based, as opposed to his.",
+                    "sentence_blank": "Your opinion seems fact-based, __ _______ __ his.",
+                    "correct": "as opposed to",
+                    "correct_jp": "君の意見は、彼のものとは対照的に、事実に基づいているようだ。",
+                    "definitions": ["〜とは対照的に"]
+                },
+                {
+                    "id": "0e1f2a3b-4c5d-6e7f-8a9b-0c1d2e3f4a5b",
+                    "expression": "in preparation for ~",
+                    "sentence": "We were busy in preparation for the party.",
+                    "sentence_blank": "We were busy __ ___________ ___ the party.",
+                    "correct": "in preparation for",
+                    "correct_jp": "私たちはパーティーの準備で忙しかった。",
+                    "definitions": ["〜に備えて；〜の準備で"]
+                },
+                {
+                    "id": "2a3b4c5d-6e7f-8a9b-0c1d-2e3f4a5b6c7d",
+                    "expression": "go without ~",
+                    "sentence": "I can never go without coffee while working.",
+                    "sentence_blank": "I can never __ _______ coffee while working.",
+                    "correct": "go without",
+                    "correct_jp": "仕事中はコーヒーなしではやっていけない。",
+                    "definitions": ["〜なしで済ませる；我慢する"]
+                },
+                {
+                    "id": "4c5d6e7f-8a9b-0c1d-2e3f-4a5b6c7d8e9f",
+                    "expression": "feed on ~",
+                    "sentence": "What do the birds feed on during winter?",
+                    "sentence_blank": "What do the birds ____ __ during winter?",
+                    "correct": "feed on",
+                    "correct_jp": "冬の間、その鳥は何を食べるのですか。",
+                    "definitions": ["〜を餌にする；〜を常食にする"]
+                },
+                {
+                    "id": "6e7f8a9b-0c1d-2e3f-4a5b-6c7d8e9f0a1b",
+                    "expression": "be about to do",
+                    "sentence": "The movie was about to start when Jerry arrived.",
+                    "sentence_blank": "The movie ___ _____ __ start when Jerry arrived.",
+                    "correct": "was about to",
+                    "correct_jp": "ジェリーが到着した時、まさに映画が始まろうとしていた。",
+                    "definitions": ["（まさに）…しようとしている"]
+                },
+                {
+                    "id": "8a9b0c1d-2e3f-4a5b-6c7d-8e9f0a1b2c3d",
+                    "expression": "give birth to ~",
+                    "sentence": "My great-grandmother gave birth to ten children.",
+                    "sentence_blank": "My great-grandmother ____ _____ __ ten children.",
+                    "correct": "gave birth to",
+                    "correct_jp": "私の曾祖母は子供を10人産んだ。",
+                    "definitions": ["〜を生む［産む］；〜の原因となる"]
+                },
+                {
+                    "id": "0b1c2d3e-4f5a-6b7c-8d9e-0f1a2b3c4d5e",
+                    "expression": "strictly speaking",
+                    "sentence": "Strictly speaking, he is not healthy.",
+                    "sentence_blank": "________ ________, he is not healthy.",
+                    "correct": "Strictly speaking",
+                    "correct_jp": "厳密に言うと、彼は健康ではない。",
+                    "definitions": ["厳密に言うと"]
+                }
+            ]
         }
     ]
 }
