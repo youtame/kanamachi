@@ -995,6 +995,259 @@
                     "definitions": ["厳密に言うと"]
                 }
             ]
+        },
+        {
+            "chapter": 58,
+            "vocabulary": [
+                {
+                    "id": "1e2f3a4b-5c6d-4e7f-8a9b-0c1d2e3f4a5b",
+                    "expression": "what we [they] call",
+                    "sentence": "He is what we call a walking dictionary.",
+                    "sentence_blank": "He is ____ __ ____ a walking dictionary.",
+                    "correct": "what we call",
+                    "correct_jp": "彼はいわゆる生き字引だ。",
+                    "definitions": ["いわゆる"]
+                },
+                {
+                    "id": "3a4b5c6d-7e8f-4a9b-0c1d-2e3f4a5b6c7d",
+                    "expression": "take to ~",
+                    "sentence": "He happened to take to the work.",
+                    "sentence_blank": "He happened to ____ __ the work.",
+                    "correct": "take to",
+                    "correct_jp": "彼はたまたまその仕事が気に入った。",
+                    "definitions": ["〜が気に入る；（習慣的に）〜を始める；〜にふける"]
+                },
+                {
+                    "id": "5c6d7e8f-9a0b-4c1d-2e3f-4a5b6c7d8e9f",
+                    "expression": "compare A with [to] B",
+                    "sentence": "The writer compared writing a novel to baking a cake.",
+                    "sentence_blank": "The writer ________ writing a novel __ baking a cake.",
+                    "correct": "compared to",
+                    "correct_jp": "その作家は小説の執筆をケーキ作りにたとえた。",
+                    "definitions": ["AをBと比較する；AをBにたとえる"]
+                },
+                {
+                    "id": "7e8f9a0b-1c2d-4e3f-5a6b-7c8d9e0f1a2b",
+                    "expression": "settle down",
+                    "sentence": "I settled down to read the book.",
+                    "sentence_blank": "I _______ ____ to read the book.",
+                    "correct": "settled down",
+                    "correct_jp": "私は落ち着いてその本を読んだ。",
+                    "definitions": ["落ち着く；静まる"]
+                },
+                {
+                    "id": "9a0b1c2d-3e4f-5a6b-7c8d-9e0f1a2b3c4d",
+                    "expression": "name A (B) after C",
+                    "sentence": "This street was named after our national hero.",
+                    "sentence_blank": "This street was _____ _____ our national hero.",
+                    "correct": "named after",
+                    "correct_jp": "この通りは我が国の国民的英雄にちなんで名づけられた。",
+                    "definitions": ["CにちなんでAを（Bと）名づける"]
+                },
+                {
+                    "id": "1b2c3d4e-5f6a-7b8c-9d0e-1f2a3b4c5d6e",
+                    "expression": "beyond doubt",
+                    "sentence": "Chris is beyond doubt the best sax player in our club.",
+                    "sentence_blank": "Chris is ______ _____ the best sax player in our club.",
+                    "correct": "beyond doubt",
+                    "correct_jp": "クリスは間違いなくうちの部で最高のサックス奏者だ。",
+                    "definitions": ["疑いの余地なく；明らかに"]
+                },
+                {
+                    "id": "3d4e5f6a-7b8c-9d0e-1f2a-3b4c5d6e7f8a",
+                    "expression": "be subject to ~",
+                    "sentence": "They were subject to their leader.",
+                    "sentence_blank": "They ____ _______ __ their leader.",
+                    "correct": "were subject to",
+                    "correct_jp": "彼らは彼らの指導者に服従しなければならなかった。",
+                    "definitions": ["〜の影響を受けやすい；〜に従わなければならない"]
+                },
+                {
+                    "id": "5f6a7b8c-9d0e-1f2a-3b4c-5d6e7f8a9b0c",
+                    "expression": "what to do",
+                    "sentence": "I don't know what to do next.",
+                    "sentence_blank": "I don't know ____ __ do next.",
+                    "correct": "what to",
+                    "correct_jp": "次に何をすべきかわかりません。",
+                    "definitions": ["何を…すべきか"]
+                },
+                {
+                    "id": "7b8c9d0e-1f2a-3b4c-5d6e-7f8a9b0c1d2e",
+                    "expression": "help O (to) do",
+                    "sentence": "She helped an old lady cross the road.",
+                    "sentence_blank": "She ______ an old lady _____ the road.",
+                    "correct": "helped cross",
+                    "correct_jp": "彼女は老婦人が道路を渡るのを助けた。",
+                    "definitions": ["Oが…するのを助ける"]
+                },
+                {
+                    "id": "9d0e1f2a-3b4c-5d6e-7f8a-9b0c1d2e3f4a",
+                    "expression": "How about ~?",
+                    "sentence": "How about putting the bed closer to the window?",
+                    "sentence_blank": "___ _____ putting the bed closer to the window?",
+                    "correct": "How about",
+                    "correct_jp": "ベッドをもっと窓の近くに置くのはどうかな？",
+                    "definitions": ["〜はどうか。"]
+                },
+                {
+                    "id": "1f2a3b4c-5d6e-7f8a-9b0c-1d2e3f4a5b6c",
+                    "expression": "be being ＋過去分詞",
+                    "sentence": "That building is being built now.",
+                    "sentence_blank": "That building __ _____ _____ now.",
+                    "correct": "is being built",
+                    "correct_jp": "あのビルは現在建設中です。",
+                    "definitions": ["…されている（進行形の受動態）"]
+                },
+                {
+                    "id": "3b4c5d6e-7f8a-9b0c-1d2e-3f4a5b6c7d8e",
+                    "expression": "have only to do",
+                    "sentence": "You have only to tell the truth.",
+                    "sentence_blank": "You ____ ____ __ tell the truth.",
+                    "correct": "have only to",
+                    "correct_jp": "君は真実を語りさえすればよい。",
+                    "definitions": ["…しさえすればよい"]
+                }
+            ]
+        },
+        {
+            "chapter": 59,
+            "vocabulary": [
+                {
+                    "id": "2a3b4c5d-6e7f-8a9b-0c1d-2e3f4a5b6c7d",
+                    "expression": "take notes on ~",
+                    "sentence": "You should take notes on important matters.",
+                    "sentence_blank": "You should ____ _____ __ important matters.",
+                    "correct": "take notes on",
+                    "correct_jp": "あなたは重要事項をメモすべきだ。",
+                    "definitions": ["〜をメモする"]
+                },
+                {
+                    "id": "4c5d6e7f-8a9b-0c1d-2e3f-4a5b6c7d8e9f",
+                    "expression": "of importance",
+                    "sentence": "The tea ceremony was of great importance to them.",
+                    "sentence_blank": "The tea ceremony was __ great __________ to them.",
+                    "correct": "of importance",
+                    "correct_jp": "茶道は彼らにとって大いに重要なものであった。",
+                    "definitions": ["重要な"]
+                },
+                {
+                    "id": "6e7f8a9b-0c1d-2e3f-4a5b-6c7d8e9f0a1b",
+                    "expression": "by hand",
+                    "sentence": "You don't have to write the report by hand.",
+                    "sentence_blank": "You don't have to write the report __ ____.",
+                    "correct": "by hand",
+                    "correct_jp": "レポートは手書きする必要はない。",
+                    "definitions": ["（機械でなく）人の手で；手書きで"]
+                },
+                {
+                    "id": "8a9b0c1d-2e3f-4a5b-6c7d-8e9f0a1b2c3d",
+                    "expression": "look back upon [on; to] ~",
+                    "sentence": "Now is the time to look back on our history.",
+                    "sentence_blank": "Now is the time to ____ ____ __ our history.",
+                    "correct": "look back on",
+                    "correct_jp": "今こそ私たちの歴史について振り返るべき時だ。",
+                    "definitions": ["〜を振り返る；〜を回顧する"]
+                },
+                {
+                    "id": "0b1c2d3e-4f5a-6b7c-8d9e-0f1a2b3c4d5e",
+                    "expression": "above all (else)",
+                    "sentence": "Above all else, we ought to secure children's safety.",
+                    "sentence_blank": "_____ ___ ____, we ought to secure children's safety.",
+                    "correct": "Above all else",
+                    "correct_jp": "何よりもまず、子供たちの安全を確保すべきだ。",
+                    "definitions": ["何よりもまず；とりわけ"]
+                },
+                {
+                    "id": "2c3d4e5f-6a7b-8c9d-0e1f-2a3b4c5d6e7f",
+                    "expression": "reflect upon [on] ~",
+                    "sentence": "I often reflect on my life.",
+                    "sentence_blank": "I often _______ __ my life.",
+                    "correct": "reflect on",
+                    "correct_jp": "私はよく自分の人生を振り返ってみるんです。",
+                    "definitions": ["〜についてよく考える；〜を振り返る"]
+                },
+                {
+                    "id": "4e5f6a7b-8c9d-0e1f-2a3b-4c5d6e7f8a9b",
+                    "expression": "in other words",
+                    "sentence": "He lost his job; in other words, he was fired.",
+                    "sentence_blank": "He lost his job; __ _____ _____, he was fired.",
+                    "correct": "in other words",
+                    "correct_jp": "彼は職を失った。すなわち、解雇されたのだ。",
+                    "definitions": ["言い換えれば；すなわち"]
+                },
+                {
+                    "id": "6a7b8c9d-0e1f-2a3b-4c5d-6e7f8a9b0c1d",
+                    "expression": "attach A to B",
+                    "sentence": "Ms. Brown attached the timetable to the wall.",
+                    "sentence_blank": "Ms. Brown ________ the timetable __ the wall.",
+                    "correct": "attached to",
+                    "correct_jp": "ブラウン先生は時間割を壁に貼り付けた。",
+                    "definitions": ["AをBに取り付ける〔付与する〕"]
+                },
+                {
+                    "id": "8c9d0e1f-2a3b-4c5d-6e7f-8a9b0c1d2e3f",
+                    "expression": "objectively speaking",
+                    "sentence": "Objectively speaking, that may be rude.",
+                    "sentence_blank": "___________ ________, that may be rude.",
+                    "correct": "Objectively speaking",
+                    "correct_jp": "客観的に言えば、それは失礼かもしれない。",
+                    "definitions": ["客観的に言えば"]
+                },
+                {
+                    "id": "0e1f2a3b-4c5d-6e7f-8a9b-0c1d2e3f4a5b",
+                    "expression": "sum up ~",
+                    "sentence": "Let's sum up the opinions we have discussed.",
+                    "sentence_blank": "Let's ___ __ the opinions we have discussed.",
+                    "correct": "sum up",
+                    "correct_jp": "話し合った意見を要約しましょう。",
+                    "definitions": ["〜を要約する"]
+                },
+                {
+                    "id": "2a3b4c5d-6e7f-8a9b-0c1d-2e3f4a5b6c7d",
+                    "expression": "be better off (...ing)",
+                    "sentence": "With that job, I'd be much better off.",
+                    "sentence_blank": "With that job, I'd be much ______ ___.",
+                    "correct": "better off",
+                    "correct_jp": "その仕事があれば、私はずっと幸せになるだろう（より良い状態であるだろう）。",
+                    "definitions": ["より良い状態である；…した方がよい"]
+                },
+                {
+                    "id": "4c5d6e7f-8a9b-0c1d-2e3f-4a5b6c7d8e9f",
+                    "expression": "with ＋ O ＋前置詞句",
+                    "sentence": "He walked with his hands in his pockets.",
+                    "sentence_blank": "He walked ____ his hands __ his pockets.",
+                    "correct": "with in",
+                    "correct_jp": "彼はポケットに手を入れて歩いた。",
+                    "definitions": ["…して（Oを…の状態で）"]
+                },
+                {
+                    "id": "6e7f8a9b-0c1d-2e3f-4a5b-6c7d8e9f0a1b",
+                    "expression": "形容詞＋ as S is",
+                    "sentence": "Old as he is, he is active.",
+                    "sentence_blank": "___ __ __ __, he is active.",
+                    "correct": "Old as he is",
+                    "correct_jp": "彼は年を取っているけれども活動的である。",
+                    "definitions": ["…けれども"]
+                },
+                {
+                    "id": "8a9b0c1d-2e3f-4a5b-6c7d-8e9f0a1b2c3d",
+                    "expression": "one ~, the other ...",
+                    "sentence": "There are two pens; one is mine and the other is yours.",
+                    "sentence_blank": "There are two pens; ___ is mine and ___ _____ is yours.",
+                    "correct": "one the other",
+                    "correct_jp": "ペンが2本ある。1本は私ので、もう1本は君のだ。",
+                    "definitions": ["一方は〜、もう一方［残り］は…"]
+                },
+                {
+                    "id": "0b1c2d3e-4f5a-6b7c-8d9e-0f1a2b3c4d5e",
+                    "expression": "If S had 過去分詞, S would have 過去分詞",
+                    "sentence": "If I had known her address, I would have written to her.",
+                    "sentence_blank": "__ I ___ _____ her address, I _____ ____ _______ to her.",
+                    "correct": "If had known would have written",
+                    "correct_jp": "もし彼女の住所を知っていたら、手紙を書いたのに。",
+                    "definitions": ["もし〜だったら、…だっただろうに（仮定法過去完了）"]
+                }
+            ]
         }
     ]
 }
