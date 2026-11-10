@@ -1015,7 +1015,9 @@
                     "sentence_blank": "He happened to ____ __ the work.",
                     "correct": "take to",
                     "correct_jp": "彼はたまたまその仕事が気に入った。",
-                    "definitions": ["〜が気に入る；（習慣的に）〜を始める；〜にふける"]
+                    "definitions": [
+                        "〜が気に入る；（習慣的に）〜を始める；〜にふける"
+                    ]
                 },
                 {
                     "id": "5c6d7e8f-9a0b-4c1d-2e3f-4a5b6c7d8e9f",
@@ -1060,7 +1062,9 @@
                     "sentence_blank": "They ____ _______ __ their leader.",
                     "correct": "were subject to",
                     "correct_jp": "彼らは彼らの指導者に服従しなければならなかった。",
-                    "definitions": ["〜の影響を受けやすい；〜に従わなければならない"]
+                    "definitions": [
+                        "〜の影響を受けやすい；〜に従わなければならない"
+                    ]
                 },
                 {
                     "id": "5f6a7b8c-9d0e-1f2a-3b4c-5d6e7f8a9b0c",
@@ -1245,7 +1249,512 @@
                     "sentence_blank": "__ I ___ _____ her address, I _____ ____ _______ to her.",
                     "correct": "If had known would have written",
                     "correct_jp": "もし彼女の住所を知っていたら、手紙を書いたのに。",
-                    "definitions": ["もし〜だったら、…だっただろうに（仮定法過去完了）"]
+                    "definitions": [
+                        "もし〜だったら、…だっただろうに（仮定法過去完了）"
+                    ]
+                }
+            ]
+        },
+        {
+            "chapter": 67,
+            "vocabulary": [
+                {
+                    "id": "1a2b3c4d-5e6f-4a7b-8c9d-0e1f2a3b4c5d",
+                    "expression": "count for ~",
+                    "sentence": "In the media industry, speed counts for a lot.",
+                    "sentence_blank": "In the media industry, speed ______ ___ _ lot.",
+                    "correct": "counts for",
+                    "correct_jp": "メディア業界ではスピードが非常に重要だ。",
+                    "definitions": ["〜の価値がある；〜ほどの重要性を持つ"]
+                },
+                {
+                    "id": "2e3f4a5b-6c7d-8e9f-0a1b-2c3d4e5f6a7b",
+                    "expression": "no more than ~",
+                    "sentence": "The interview took no more than five minutes.",
+                    "sentence_blank": "The interview took __ ____ ____ five minutes.",
+                    "correct": "no more than",
+                    "correct_jp": "面接はほんの5分しかかからなかった。",
+                    "definitions": ["（数・量などが）たった〜；ほんの〜"]
+                },
+                {
+                    "id": "3f4a5b6c-7d8e-9f0a-1b2c-3d4e5f6a7b8c",
+                    "expression": "in haste",
+                    "sentence": "The letter was clearly written in haste.",
+                    "sentence_blank": "The letter was clearly written __ _____.",
+                    "correct": "in haste",
+                    "correct_jp": "その手紙は明らかに急いで書かれたものだった。",
+                    "definitions": ["急いで"]
+                },
+                {
+                    "id": "4a5b6c7d-8e9f-0a1b-2c3d-4e5f6a7b8c9d",
+                    "expression": "at the cost [price] of ~",
+                    "sentence": "Julian saved her at the cost of his own life.",
+                    "sentence_blank": "Julian saved her __ ___ ____ __ his own life.",
+                    "correct": "at the cost of",
+                    "correct_jp": "ジュリアンは自らの命を犠牲にして彼女を救った。",
+                    "definitions": ["〜を犠牲にして"]
+                },
+                {
+                    "id": "5b6c7d8e-9f0a-1b2c-3d4e-5f6a7b8c9d0e",
+                    "expression": "care about ~",
+                    "sentence": "I major in child psychology, which I deeply care about.",
+                    "sentence_blank": "I major in child psychology, which I deeply ____ _____.",
+                    "correct": "care about",
+                    "correct_jp": "私は児童心理学を専攻しており、大いに関心があるのだ。",
+                    "definitions": ["〜に関心がある；〜を気にかける"]
+                },
+                {
+                    "id": "6c7d8e9f-0a1b-2c3d-4e5f-6a7b8c9d0e1f",
+                    "expression": "specialize in ~",
+                    "sentence": "We specialize in the import of Asian spices.",
+                    "sentence_blank": "We __________ __ the import of Asian spices.",
+                    "correct": "specialize in",
+                    "correct_jp": "我が社はアジアの香辛料の輸入を専門に扱っている。",
+                    "definitions": ["〜を専門に扱う；〜を専攻する"]
+                },
+                {
+                    "id": "7d8e9f0a-1b2c-3d4e-5f6a-7b8c9d0e1f2a",
+                    "expression": "make a choice",
+                    "sentence": "He had to make a choice between the two.",
+                    "sentence_blank": "He had to ____ _ ______ between the two.",
+                    "correct": "make a choice",
+                    "correct_jp": "彼はその2つのなかから選択しなければならなかった。",
+                    "definitions": ["選択する"]
+                },
+                {
+                    "id": "8e9f0a1b-2c3d-4e5f-6a7b-8c9d0e1f2a3b",
+                    "expression": "(un)suitable for ~",
+                    "sentence": "The movie is suitable for children.",
+                    "sentence_blank": "The movie is ________ ___ children.",
+                    "correct": "suitable for",
+                    "correct_jp": "その映画は子供に適している。",
+                    "definitions": ["〜に適した（適さない）"]
+                },
+                {
+                    "id": "9f0a1b2c-3d4e-5f6a-7b8c-9d0e1f2a3b4c",
+                    "expression": "go on to do",
+                    "sentence": "The instructor went on to demonstrate how to do it.",
+                    "sentence_blank": "The instructor went __ __ demonstrate how to do it.",
+                    "correct": "on to",
+                    "correct_jp": "講師は続いてそれをどうやるのか実際にやってみせた。",
+                    "definitions": ["次に…する；続けて…する"]
+                },
+                {
+                    "id": "0a1b2c3d-4e5f-6a7b-8c9d-0e1f2a3b4c5d",
+                    "expression": "on the spot",
+                    "sentence": "He broke into the bank, but he was arrested on the spot.",
+                    "sentence_blank": "He broke into the bank, but he was arrested __ ___ ____.",
+                    "correct": "on the spot",
+                    "correct_jp": "彼は銀行に押し入ったが、その場で逮捕された。",
+                    "definitions": ["その場で；即座に"]
+                },
+                {
+                    "id": "1b2c3d4e-5f6a-7b8c-9d0e-1f2a3b4c5d6e",
+                    "expression": "with care",
+                    "sentence": "Please handle this vase with care.",
+                    "sentence_blank": "Please handle this vase ____ ____.",
+                    "correct": "with care",
+                    "correct_jp": "この花瓶は取り扱いにご注意ください。",
+                    "definitions": ["注意して；気をつけて"]
+                },
+                {
+                    "id": "2c3d4e5f-6a7b-8c9d-0e1f-2a3b4c5d6e7f",
+                    "expression": "will have ＋過去分詞",
+                    "sentence": "They will have completed the building by next June.",
+                    "sentence_blank": "They ____ ____ _________ the building by next June.",
+                    "correct": "will have completed",
+                    "correct_jp": "来年の6月までにはそのビルは完成してしまうだろう。",
+                    "definitions": ["…してしまうだろう（未来完了形）"]
+                },
+                {
+                    "id": "3d4e5f6a-7b8c-9d0e-1f2a-3b4c5d6e7f8a",
+                    "expression": "it seems that ...",
+                    "sentence": "It seems that he is ill.",
+                    "sentence_blank": "__ _____ ____ he is ill.",
+                    "correct": "It seems that",
+                    "correct_jp": "彼は病気のようだ。",
+                    "definitions": ["…のように見える［思える］"]
+                },
+                {
+                    "id": "4e5f6a7b-8c9d-0e1f-2a3b-4c5d6e7f8a9b",
+                    "expression": "it is ~ for O to do",
+                    "sentence": "It is easy for him to read this book.",
+                    "sentence_blank": "It is easy ___ ___ __ read this book.",
+                    "correct": "for him to",
+                    "correct_jp": "彼がこの本を読むのは簡単だ。",
+                    "definitions": ["Oが…するのは〜"]
+                },
+                {
+                    "id": "5f6a7b8c-9d0e-1f2a-3b4c-5d6e7f8a9b0c",
+                    "expression": "in order that S may [can; will] ...",
+                    "sentence": "He studied hard in order that he might pass the exam.",
+                    "sentence_blank": "He studied hard __ _____ ____ he might pass the exam.",
+                    "correct": "in order that",
+                    "correct_jp": "彼は試験に合格するために一生懸命勉強した。",
+                    "definitions": ["…するために"]
+                }
+            ]
+        },
+        {
+            "chapter": 68,
+            "vocabulary": [
+                {
+                    "id": "6a7b8c9d-0e1f-2a3b-4c5d-6e7f8a9b0c1d",
+                    "expression": "for the sake of ~",
+                    "sentence": "He worked hard for the sake of his country.",
+                    "sentence_blank": "He worked hard ___ ___ ____ __ his country.",
+                    "correct": "for the sake of",
+                    "correct_jp": "彼は祖国のために一生懸命働いた。",
+                    "definitions": ["〜のために"]
+                },
+                {
+                    "id": "7b8c9d0e-1f2a-3b4c-5d6e-7f8a9b0c1d2e",
+                    "expression": "in pursuit of ~",
+                    "sentence": "The philosopher spent his life in pursuit of truth.",
+                    "sentence_blank": "The philosopher spent his life __ _______ __ truth.",
+                    "correct": "in pursuit of",
+                    "correct_jp": "その哲学者は真理の追求に生涯を費やした。",
+                    "definitions": ["〜を探し求めて；〜を得ようとして"]
+                },
+                {
+                    "id": "8c9d0e1f-2a3b-4c5d-6e7f-8a9b0c1d2e3f",
+                    "expression": "in store for ~",
+                    "sentence": "A great future is in store for us.",
+                    "sentence_blank": "A great future is __ _____ ___ us.",
+                    "correct": "in store for",
+                    "correct_jp": "素晴らしい未来が私たちを待ち受けている。",
+                    "definitions": ["〜を待ち受けて；〜に備えて"]
+                },
+                {
+                    "id": "9d0e1f2a-3b4c-5d6e-7f8a-9b0c1d2e3f4a",
+                    "expression": "know ~ by heart",
+                    "sentence": "I knew the poem by heart.",
+                    "sentence_blank": "I knew the poem __ _____.",
+                    "correct": "by heart",
+                    "correct_jp": "私はその詩を暗記していた。",
+                    "definitions": ["〜をそらで覚えている；〜を暗記している"]
+                },
+                {
+                    "id": "0e1f2a3b-4c5d-6e7f-8a9b-0c1d2e3f4a5b",
+                    "expression": "inquire into ~",
+                    "sentence": "The police inquired into the case.",
+                    "sentence_blank": "The police ________ ____ the case.",
+                    "correct": "inquired into",
+                    "correct_jp": "警察はその事件の調査をした。",
+                    "definitions": ["〜を調べる"]
+                },
+                {
+                    "id": "1f2a3b4c-5d6e-7f8a-9b0c-1d2e3f4a5b6c",
+                    "expression": "major in ~",
+                    "sentence": "I majored in psychology.",
+                    "sentence_blank": "I _______ __ psychology.",
+                    "correct": "majored in",
+                    "correct_jp": "私は心理学を専攻しました。",
+                    "definitions": ["〜を専攻する"]
+                },
+                {
+                    "id": "2a3b4c5d-6e7f-8a9b-0c1d-2e3f4a5b6c7d",
+                    "expression": "enter into [on] ~",
+                    "sentence": "We have entered into a partnership with ABC Company.",
+                    "sentence_blank": "We have _______ ____ a partnership with ABC Company.",
+                    "correct": "entered into",
+                    "correct_jp": "当社はABC社と提携関係を結びました。",
+                    "definitions": [
+                        "（新しい仕事などを）始める；〜に取り掛かる"
+                    ]
+                },
+                {
+                    "id": "3b4c5d6e-7f8a-9b0c-1d2e-3f4a5b6c7d8e",
+                    "expression": "be ready to do",
+                    "sentence": "Are you ready to face the reality?",
+                    "sentence_blank": "Are you _____ __ face the reality?",
+                    "correct": "ready to",
+                    "correct_jp": "真実と向き合う覚悟はできた？",
+                    "definitions": ["…する用意ができている；…する覚悟がある"]
+                },
+                {
+                    "id": "4c5d6e7f-8a9b-0c1d-2e3f-4a5b6c7d8e9f",
+                    "expression": "keep pace with ~",
+                    "sentence": "He's struggling to keep pace with the other students.",
+                    "sentence_blank": "He's struggling to keep ____ ____ the other students.",
+                    "correct": "pace with",
+                    "correct_jp": "彼は周りの生徒たちについていくのに苦労している。",
+                    "definitions": [
+                        "〜に遅れをとらないようにする；〜についていく"
+                    ]
+                },
+                {
+                    "id": "5d6e7f8a-9b0c-1d2e-3f4a-5b6c7d8e9f0a",
+                    "expression": "fall behind (~)",
+                    "sentence": "We are falling behind in the clean-energy race.",
+                    "sentence_blank": "We are _______ ______ in the clean-energy race.",
+                    "correct": "falling behind",
+                    "correct_jp": "私たちはクリーンエネルギーをめぐる競争で後れをとっている。",
+                    "definitions": ["（〜に）後れをとる"]
+                }
+            ]
+        },
+        {
+            "chapter": 69,
+            "vocabulary": [
+                {
+                    "id": "6e7f8a9b-0c1d-2e3f-4a5b-6c7d8e9f0a1b",
+                    "expression": "a handful of ~",
+                    "sentence": "There were only a handful of students in the hall.",
+                    "sentence_blank": "There were only _ _______ __ students in the hall.",
+                    "correct": "a handful of",
+                    "correct_jp": "ホールにはほんの数人の生徒しかいなかった。",
+                    "definitions": ["ひと握りの〜；少数の〜"]
+                },
+                {
+                    "id": "7f8a9b0c-1d2e-3f4a-5b6c-7d8e9f0a1b2c",
+                    "expression": "cope with ~",
+                    "sentence": "That car mechanic can cope with any problem concerning cars.",
+                    "sentence_blank": "That car mechanic can ____ ____ any problem concerning cars.",
+                    "correct": "cope with",
+                    "correct_jp": "その自動車工は車に関するいかなる問題にも対処することができる。",
+                    "definitions": ["〜に対処する"]
+                },
+                {
+                    "id": "8a9b0c1d-2e3f-4a5b-6c7d-8e9f0a1b2c3d",
+                    "expression": "by no means",
+                    "sentence": "She is by no means a liar.",
+                    "sentence_blank": "She is __ __ _____ a liar.",
+                    "correct": "by no means",
+                    "correct_jp": "彼女は決して嘘つきではない。",
+                    "definitions": ["決して〜ない"]
+                },
+                {
+                    "id": "9b0c1d2e-3f4a-5b6c-7d8e-9f0a1b2c3d4e",
+                    "expression": "as a matter of fact",
+                    "sentence": "As a matter of fact, I have read that book.",
+                    "sentence_blank": "__ _ ______ __ fact, I have read that book.",
+                    "correct": "As a matter of",
+                    "correct_jp": "実は、私はその本を読んだことがあるのです。",
+                    "definitions": ["実際のところ"]
+                },
+                {
+                    "id": "0c1d2e3f-4a5b-6c7d-8e9f-0a1b2c3d4e5f",
+                    "expression": "on the rise",
+                    "sentence": "The number of new cases is on the rise.",
+                    "sentence_blank": "The number of new cases is __ ___ ____.",
+                    "correct": "on the rise",
+                    "correct_jp": "新規患者数は増加中で（上昇して）いる。",
+                    "definitions": ["上昇中で；増加中で"]
+                },
+                {
+                    "id": "1d2e3f4a-5b6c-7d8e-9f0a-1b2c3d4e5f6a",
+                    "expression": "supply A with B (B for [to] A)",
+                    "sentence": "The canal supplies local people with drinking water.",
+                    "sentence_blank": "The canal ________ local people ____ drinking water.",
+                    "correct": "supplies with",
+                    "correct_jp": "その水路は地元住民に飲み水を供給している。",
+                    "definitions": ["AにBを供給する"]
+                },
+                {
+                    "id": "2e3f4a5b-6c7d-8e9f-0a1b-2c3d4e5f6a7b",
+                    "expression": "take ~ into account [consideration]",
+                    "sentence": "Should we take that factor into consideration, too?",
+                    "sentence_blank": "Should we take that factor ____ ____________, too?",
+                    "correct": "into consideration",
+                    "correct_jp": "その要素も考慮に入れるべきだろうか。",
+                    "definitions": ["〜を考慮に入れる"]
+                },
+                {
+                    "id": "3f4a5b6c-7d8e-9f0a-1b2c-3d4e5f6a7b8c",
+                    "expression": "be lacking [wanting] in ~",
+                    "sentence": "What he said was lacking in a moral sense as a teacher.",
+                    "sentence_blank": "What he said was _______ __ a moral sense as a teacher.",
+                    "correct": "lacking in",
+                    "correct_jp": "彼の発言は教師としての道徳観に欠けるものだった。",
+                    "definitions": ["〜が［に］欠けている"]
+                },
+                {
+                    "id": "4a5b6c7d-8e9f-0a1b-2c3d-4e5f6a7b8c9d",
+                    "expression": "rob A of B",
+                    "sentence": "Was the guy who robbed you of your watch found?",
+                    "sentence_blank": "Was the guy who ______ you __ your watch found?",
+                    "correct": "robbed of",
+                    "correct_jp": "君の時計を奪ったやつは見つかったか？",
+                    "definitions": ["AからBを強奪する"]
+                },
+                {
+                    "id": "5b6c7d8e-9f0a-1b2c-3d4e-5f6a7b8c9d0e",
+                    "expression": "be unwilling to do",
+                    "sentence": "I'm not unwilling to help you. I just have no time.",
+                    "sentence_blank": "I'm not _________ __ help you. I just have no time.",
+                    "correct": "unwilling to",
+                    "correct_jp": "手伝うのに気が進まないんじゃない。単に時間がないんだ。",
+                    "definitions": ["…することに気が進まない；…したがらない"]
+                },
+                {
+                    "id": "6c7d8e9f-0a1b-2c3d-4e5f-6a7b8c9d0e1f",
+                    "expression": "share A with B",
+                    "sentence": "I don't want to share this with you.",
+                    "sentence_blank": "I don't want to _____ ____ ____ you.",
+                    "correct": "share with",
+                    "correct_jp": "私はこれをあなたと共有したくないです。",
+                    "definitions": ["AをBと共有する、分かち合う"]
+                },
+                {
+                    "id": "7d8e9f0a-1b2c-3d4e-5f6a-7b8c9d0e1f2a",
+                    "expression": "be consistent with ~",
+                    "sentence": "That's not consistent with what you said before.",
+                    "sentence_blank": "That's not __________ ____ what you said before.",
+                    "correct": "consistent with",
+                    "correct_jp": "それはあなたが以前言ったことと一致していない。",
+                    "definitions": ["〜と一致する"]
+                },
+                {
+                    "id": "8e9f0a1b-2c3d-4e5f-6a7b-8c9d0e1f2a3b",
+                    "expression": "turn a deaf ear to ~",
+                    "sentence": "Mary turned a deaf ear to the rumors.",
+                    "sentence_blank": "Mary ______ _ ____ ___ to the rumors.",
+                    "correct": "turned a deaf ear",
+                    "correct_jp": "メアリーはそのうわさに耳を貸さなかった。",
+                    "definitions": ["〜に耳を貸さない"]
+                },
+                {
+                    "id": "9f0a1b2c-3d4e-5f6a-7b8c-9d0e1f2a3b4c",
+                    "expression": "to make matters worse",
+                    "sentence": "To make matters worse, it started to snow again.",
+                    "sentence_blank": "__ ____ _______ _____, it started to snow again.",
+                    "correct": "To make matters worse",
+                    "correct_jp": "さらに悪いことに、また雪が降り始めたんだ。",
+                    "definitions": ["さらに悪いことには"]
+                },
+                {
+                    "id": "0a1b2c3d-4e5f-6a7b-8c9d-0e1f2a3b4c5d",
+                    "expression": "manage to do",
+                    "sentence": "He wasn't smart, but he managed to graduate from college.",
+                    "sentence_blank": "He wasn't smart, but he _______ __ graduate from college.",
+                    "correct": "managed to",
+                    "correct_jp": "彼は賢くはなかったが、何とか大学を卒業した。",
+                    "definitions": ["何とか［どうにか］…する"]
+                }
+            ]
+        },
+        {
+            "chapter": 70,
+            "vocabulary": [
+                {
+                    "id": "1b2c3d4e-5f6a-7b8c-9d0e-1f2a3b4c5d6e",
+                    "expression": "as of ~",
+                    "sentence": "As of 2022, the world population reached 8 billion.",
+                    "sentence_blank": "__ __ 2022, the world population reached 8 billion.",
+                    "correct": "As of",
+                    "correct_jp": "2022年時点でに、世界人口は80億人に達した。",
+                    "definitions": ["〜の時点で；〜現在で"]
+                },
+                {
+                    "id": "2c3d4e5f-6a7b-4c8d-9e0f-1a2b3c4d5e6f",
+                    "expression": "make up ~",
+                    "sentence": "Do you know how many islands make up Japan?",
+                    "sentence_blank": "Do you know how many islands ____ __ Japan?",
+                    "correct": "make up",
+                    "correct_jp": "日本がいくつもの島から成るか知っていますか。",
+                    "definitions": [
+                        "〜を構成する；〜（割合）を占める；〜をでっち上げる"
+                    ]
+                },
+                {
+                    "id": "3d4e5f6a-7b8c-9d0e-1f2a-3b4c5d6e7f8a",
+                    "expression": "on the increase",
+                    "sentence": "The number of cars in this town is on the increase.",
+                    "sentence_blank": "The number of cars in this town is __ ___ ________.",
+                    "correct": "on the increase",
+                    "correct_jp": "この町の車の数は増加している。",
+                    "definitions": ["増加して"]
+                },
+                {
+                    "id": "4e5f6a7b-8c9d-0e1f-2a3b-4c5d6e7f8a9b",
+                    "expression": "be bound to do",
+                    "sentence": "You worked really hard. You are bound to succeed.",
+                    "sentence_blank": "You worked really hard. You ___ _____ __ succeed.",
+                    "correct": "are bound to",
+                    "correct_jp": "君は本当に頑張ったね。絶対にうまくいくよ。",
+                    "definitions": ["必ず…する；…する責任がある"]
+                },
+                {
+                    "id": "5f6a7b8c-9d0e-1f2a-3b4c-5d6e7f8a9b0c",
+                    "expression": "on occasion(s)",
+                    "sentence": "My brother told small lies on occasion.",
+                    "sentence_blank": "My brother told small lies __ _________.",
+                    "correct": "on occasion",
+                    "correct_jp": "我が子は時々小さな嘘をついた。",
+                    "definitions": ["時々"]
+                },
+                {
+                    "id": "6a7b8c9d-0e1f-2a3b-4c5d-6e7f8a9b0c1d",
+                    "expression": "for fear of ~",
+                    "sentence": "They didn't report the incident for fear of being fired.",
+                    "sentence_blank": "They didn't report the incident ___ ____ __ being fired.",
+                    "correct": "for fear of",
+                    "correct_jp": "彼らはクビにされるのを恐れて、その事故について報告しなかった。",
+                    "definitions": ["〜を恐れて；〜のないように"]
+                },
+                {
+                    "id": "7b8c9d0e-1f2a-3b4c-5d6e-7f8a9b0c1d2e",
+                    "expression": "in danger of ~",
+                    "sentence": "We were then in danger of collapse.",
+                    "sentence_blank": "We were then __ ______ __ collapse.",
+                    "correct": "in danger of",
+                    "correct_jp": "私たちは当時、倒産の危機にありました。",
+                    "definitions": ["〜の危険にさらされて；〜の恐れがあって"]
+                },
+                {
+                    "id": "8c9d0e1f-2a3b-4c5d-6e7f-8a9b0c1d2e3f",
+                    "expression": "have an impact [effect; influence] on ~",
+                    "sentence": "That book had a significant effect on her life.",
+                    "sentence_blank": "That book had a significant ______ __ her life.",
+                    "correct": "effect on",
+                    "correct_jp": "その本は彼女の人生に大きな影響を与えた。",
+                    "definitions": ["〜に影響を及ぼす"]
+                },
+                {
+                    "id": "9d0e1f2a-3b4c-5d6e-7f8a-9b0c1d2e3f4a",
+                    "expression": "get lost",
+                    "sentence": "He must have got lost in the forest.",
+                    "sentence_blank": "He must have got ____ __ the forest.",
+                    "correct": "lost in",
+                    "correct_jp": "彼は森で迷ったに違いない。",
+                    "definitions": ["消える；（道に）迷う；途方に暮れる"]
+                },
+                {
+                    "id": "0e1f2a3b-4c5d-6e7f-8a9b-0c1d2e3f4a5b",
+                    "expression": "be proud of ~",
+                    "sentence": "I have nothing to be proud of.",
+                    "sentence_blank": "I have nothing to __ _____ __.",
+                    "correct": "be proud of",
+                    "correct_jp": "私には誇るべきものが何もない。",
+                    "definitions": ["〜を誇りにする"]
+                },
+                {
+                    "id": "1f2a3b4c-5d6e-7f8a-9b0c-1d2e3f4a5b6c",
+                    "expression": "That (This) is why ...",
+                    "sentence": "He wanted to learn Aikido. That's why he came to Japan.",
+                    "sentence_blank": "He wanted to learn Aikido. ______ ___ he came to Japan.",
+                    "correct": "That's why",
+                    "correct_jp": "彼は合気道を学びたかった。そういうわけで彼は日本に来た。",
+                    "definitions": ["そういう［こういう］わけでに…"]
+                },
+                {
+                    "id": "2a3b4c5d-6e7f-8a9b-0c1d-2e3f4a5b6c7d",
+                    "expression": "not to mention ~",
+                    "sentence": "He can speak French, not to mention English.",
+                    "sentence_blank": "He can speak French, ___ __ _______ English.",
+                    "correct": "not to mention",
+                    "correct_jp": "彼は英語は言うまでもなく、フランス語も話せる。",
+                    "definitions": ["〜は言うまでもなく"]
+                },
+                {
+                    "id": "3b4c5d6e-7f8a-9b0c-1d2e-3f4a5b6c7d8e",
+                    "expression": "~ enough to do",
+                    "sentence": "He is old enough to go to school.",
+                    "sentence_blank": "He is old ______ __ go to school.",
+                    "correct": "enough to",
+                    "correct_jp": "彼は学校へ行くのに十分な年齢だ。",
+                    "definitions": ["…するのに十分な；…できるくらい〜"]
                 }
             ]
         }
